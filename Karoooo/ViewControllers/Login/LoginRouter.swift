@@ -16,8 +16,7 @@ class LoginRouter: RouterProtocol {
 
     func routeToUserListView(dataSource: UserListDataSource) {
         let userListViewController = UserListBuilder.build(with: dataSource)
-        let viewcontrollers: [UIViewController] = [userListViewController]
-        viewController?.navigationController?.viewControllers = viewcontrollers
+        viewController?.navigationController?.viewControllers = [userListViewController]
     }
 
     func routeToCountryListView(dataSource: CountryListDataSource) {

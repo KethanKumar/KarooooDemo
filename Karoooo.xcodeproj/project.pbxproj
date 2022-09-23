@@ -149,7 +149,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5F6FE83628C5B60F00B46B81 /* DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F6FE83628C5B60F00B46B81 /* Karoooo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Karoooo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F6FE84228C5B61000B46B81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F6FE84528C5B61000B46B81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F6FE84728C5B61000B46B81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -200,9 +200,9 @@
 		5F6FE96428C5BF6F00B46B81 /* URLRequest+Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLRequest+Service.swift"; sourceTree = "<group>"; };
 		5F6FE96728C5C18D00B46B81 /* TableCellItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCellItems.swift; sourceTree = "<group>"; };
 		5F6FE9AC28C5C61C00B46B81 /* WelcomeScreenTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenTest.swift; sourceTree = "<group>"; };
-		5F6FE9BA28C5C95C00B46B81 /* DemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F6FE9BA28C5C95C00B46B81 /* KarooooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KarooooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F6FE9BC28C5C95C00B46B81 /* DemoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAppTests.swift; sourceTree = "<group>"; };
-		5F6FE9C728C5C96400B46B81 /* DemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F6FE9C728C5C96400B46B81 /* KarooooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KarooooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F6FE9C928C5C96400B46B81 /* DemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAppUITests.swift; sourceTree = "<group>"; };
 		5F6FE9CB28C5C96400B46B81 /* DemoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5FB95CD128D3233E006A3E6B /* UserProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
@@ -307,9 +307,9 @@
 			isa = PBXGroup;
 			children = (
 				5FE5F7EA28DDA52300CE3339 /* ReadMe.md */,
-				5F6FE83828C5B60F00B46B81 /* DemoApp */,
-				5F6FE9BB28C5C95C00B46B81 /* DemoAppTests */,
-				5F6FE9C828C5C96400B46B81 /* DemoAppUITests */,
+				5F6FE83828C5B60F00B46B81 /* Karoooo */,
+				5F6FE9BB28C5C95C00B46B81 /* KarooooTests */,
+				5F6FE9C828C5C96400B46B81 /* KarooooUITests */,
 				5F6FE83728C5B60F00B46B81 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -317,14 +317,14 @@
 		5F6FE83728C5B60F00B46B81 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5F6FE83628C5B60F00B46B81 /* DemoApp.app */,
-				5F6FE9BA28C5C95C00B46B81 /* DemoAppTests.xctest */,
-				5F6FE9C728C5C96400B46B81 /* DemoAppUITests.xctest */,
+				5F6FE83628C5B60F00B46B81 /* Karoooo.app */,
+				5F6FE9BA28C5C95C00B46B81 /* KarooooTests.xctest */,
+				5F6FE9C728C5C96400B46B81 /* KarooooUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5F6FE83828C5B60F00B46B81 /* DemoApp */ = {
+		5F6FE83828C5B60F00B46B81 /* Karoooo */ = {
 			isa = PBXGroup;
 			children = (
 				5F6FE85328C5B6A400B46B81 /* Application */,
@@ -340,7 +340,7 @@
 				5F6FE84428C5B61000B46B81 /* LaunchScreen.storyboard */,
 				5F6FE84728C5B61000B46B81 /* Info.plist */,
 			);
-			path = DemoApp;
+			path = Karoooo;
 			sourceTree = "<group>";
 		};
 		5F6FE85328C5B6A400B46B81 /* Application */ = {
@@ -533,7 +533,7 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		5F6FE9BB28C5C95C00B46B81 /* DemoAppTests */ = {
+		5F6FE9BB28C5C95C00B46B81 /* KarooooTests */ = {
 			isa = PBXGroup;
 			children = (
 				5F6FE9AC28C5C61C00B46B81 /* WelcomeScreenTest.swift */,
@@ -541,16 +541,16 @@
 				5FCF5B0928DE077C005E238D /* LoginTest.swift */,
 				5FCF5B0B28DE07B3005E238D /* UserListTest.swift */,
 			);
-			path = DemoAppTests;
+			path = KarooooTests;
 			sourceTree = "<group>";
 		};
-		5F6FE9C828C5C96400B46B81 /* DemoAppUITests */ = {
+		5F6FE9C828C5C96400B46B81 /* KarooooUITests */ = {
 			isa = PBXGroup;
 			children = (
 				5F6FE9C928C5C96400B46B81 /* DemoAppUITests.swift */,
 				5F6FE9CB28C5C96400B46B81 /* DemoAppUITestsLaunchTests.swift */,
 			);
-			path = DemoAppUITests;
+			path = KarooooUITests;
 			sourceTree = "<group>";
 		};
 		5FB95CCE28D3233E006A3E6B /* Persistence */ = {
@@ -730,9 +730,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5F6FE83528C5B60F00B46B81 /* DemoApp */ = {
+		5F6FE83528C5B60F00B46B81 /* Karoooo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F6FE84A28C5B61000B46B81 /* Build configuration list for PBXNativeTarget "DemoApp" */;
+			buildConfigurationList = 5F6FE84A28C5B61000B46B81 /* Build configuration list for PBXNativeTarget "Karoooo" */;
 			buildPhases = (
 				5F6FE83228C5B60F00B46B81 /* Sources */,
 				5F6FE83328C5B60F00B46B81 /* Frameworks */,
@@ -742,7 +742,7 @@
 			);
 			dependencies = (
 			);
-			name = DemoApp;
+			name = Karoooo;
 			packageProductDependencies = (
 				5FB95CC728D3212D006A3E6B /* Bond */,
 				5FB95CCC28D322A8006A3E6B /* SwiftKeychainWrapper */,
@@ -751,12 +751,12 @@
 				5FCF5B1828DE0991005E238D /* Lottie */,
 			);
 			productName = DemoApp;
-			productReference = 5F6FE83628C5B60F00B46B81 /* DemoApp.app */;
+			productReference = 5F6FE83628C5B60F00B46B81 /* Karoooo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5F6FE9B928C5C95C00B46B81 /* DemoAppTests */ = {
+		5F6FE9B928C5C95C00B46B81 /* KarooooTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F6FE9C028C5C95C00B46B81 /* Build configuration list for PBXNativeTarget "DemoAppTests" */;
+			buildConfigurationList = 5F6FE9C028C5C95C00B46B81 /* Build configuration list for PBXNativeTarget "KarooooTests" */;
 			buildPhases = (
 				5F6FE9B628C5C95C00B46B81 /* Sources */,
 				5F6FE9B728C5C95C00B46B81 /* Frameworks */,
@@ -767,14 +767,14 @@
 			dependencies = (
 				5F6FE9BF28C5C95C00B46B81 /* PBXTargetDependency */,
 			);
-			name = DemoAppTests;
+			name = KarooooTests;
 			productName = DemoAppTests;
-			productReference = 5F6FE9BA28C5C95C00B46B81 /* DemoAppTests.xctest */;
+			productReference = 5F6FE9BA28C5C95C00B46B81 /* KarooooTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5F6FE9C628C5C96400B46B81 /* DemoAppUITests */ = {
+		5F6FE9C628C5C96400B46B81 /* KarooooUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F6FE9CF28C5C96400B46B81 /* Build configuration list for PBXNativeTarget "DemoAppUITests" */;
+			buildConfigurationList = 5F6FE9CF28C5C96400B46B81 /* Build configuration list for PBXNativeTarget "KarooooUITests" */;
 			buildPhases = (
 				5F6FE9C328C5C96400B46B81 /* Sources */,
 				5F6FE9C428C5C96400B46B81 /* Frameworks */,
@@ -785,9 +785,9 @@
 			dependencies = (
 				5F6FE9CE28C5C96400B46B81 /* PBXTargetDependency */,
 			);
-			name = DemoAppUITests;
+			name = KarooooUITests;
 			productName = DemoAppUITests;
-			productReference = 5F6FE9C728C5C96400B46B81 /* DemoAppUITests.xctest */;
+			productReference = 5F6FE9C728C5C96400B46B81 /* KarooooUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -813,7 +813,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5F6FE83128C5B60F00B46B81 /* Build configuration list for PBXProject "DemoApp" */;
+			buildConfigurationList = 5F6FE83128C5B60F00B46B81 /* Build configuration list for PBXProject "Karoooo" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -832,9 +832,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5F6FE83528C5B60F00B46B81 /* DemoApp */,
-				5F6FE9B928C5C95C00B46B81 /* DemoAppTests */,
-				5F6FE9C628C5C96400B46B81 /* DemoAppUITests */,
+				5F6FE83528C5B60F00B46B81 /* Karoooo */,
+				5F6FE9B928C5C95C00B46B81 /* KarooooTests */,
+				5F6FE9C628C5C96400B46B81 /* KarooooUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -1007,12 +1007,12 @@
 /* Begin PBXTargetDependency section */
 		5F6FE9BF28C5C95C00B46B81 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5F6FE83528C5B60F00B46B81 /* DemoApp */;
+			target = 5F6FE83528C5B60F00B46B81 /* Karoooo */;
 			targetProxy = 5F6FE9BE28C5C95C00B46B81 /* PBXContainerItemProxy */;
 		};
 		5F6FE9CE28C5C96400B46B81 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5F6FE83528C5B60F00B46B81 /* DemoApp */;
+			target = 5F6FE83528C5B60F00B46B81 /* Karoooo */;
 			targetProxy = 5F6FE9CD28C5C96400B46B81 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1151,7 +1151,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DemoApp/Info.plist;
+				INFOPLIST_FILE = Karoooo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -1161,7 +1161,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mcm.DemoApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mcm.karoooo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -1177,7 +1177,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DemoApp/Info.plist;
+				INFOPLIST_FILE = Karoooo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -1187,7 +1187,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mcm.DemoApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mcm.karoooo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -1208,7 +1208,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoApp.app/DemoApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Karoooo.app/Karoooo";
 			};
 			name = Debug;
 		};
@@ -1225,7 +1225,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoApp.app/DemoApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Karoooo.app/Karoooo";
 			};
 			name = Release;
 		};
@@ -1241,7 +1241,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DemoApp;
+				TEST_TARGET_NAME = Karoooo;
 			};
 			name = Debug;
 		};
@@ -1257,14 +1257,14 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DemoApp;
+				TEST_TARGET_NAME = Karoooo;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5F6FE83128C5B60F00B46B81 /* Build configuration list for PBXProject "DemoApp" */ = {
+		5F6FE83128C5B60F00B46B81 /* Build configuration list for PBXProject "Karoooo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5F6FE84828C5B61000B46B81 /* Debug */,
@@ -1273,7 +1273,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F6FE84A28C5B61000B46B81 /* Build configuration list for PBXNativeTarget "DemoApp" */ = {
+		5F6FE84A28C5B61000B46B81 /* Build configuration list for PBXNativeTarget "Karoooo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5F6FE84B28C5B61000B46B81 /* Debug */,
@@ -1282,7 +1282,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F6FE9C028C5C95C00B46B81 /* Build configuration list for PBXNativeTarget "DemoAppTests" */ = {
+		5F6FE9C028C5C95C00B46B81 /* Build configuration list for PBXNativeTarget "KarooooTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5F6FE9C128C5C95C00B46B81 /* Debug */,
@@ -1291,7 +1291,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F6FE9CF28C5C96400B46B81 /* Build configuration list for PBXNativeTarget "DemoAppUITests" */ = {
+		5F6FE9CF28C5C96400B46B81 /* Build configuration list for PBXNativeTarget "KarooooUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5F6FE9D028C5C96400B46B81 /* Debug */,

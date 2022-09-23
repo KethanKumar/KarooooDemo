@@ -19,8 +19,8 @@ class LoginViewModel: RoutingViewModel {
     private let userProfile: UserProfileProvider
     let canContinue = Observable(false)
     let isLoading = Observable<Bool>(false)
-    let email = Observable<String?>("kethankumar87@gmail.com")
-    let password = Observable<String?>("Test!123")
+    let email = Observable<String?>("")
+    let password = Observable<String?>("")
     let country = Observable<String?>("")
     let isEmailInvalid = Observable<Bool>(false)
     let isPasswordInvalid = Observable<Bool>(false)
@@ -73,9 +73,13 @@ extension LoginViewModel {
     }
 
     func onLogin() {
-        if validateErrors() {
-            self.routeToDashboard()
-        }
+        self.isLoading.value = true
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.4, execute: {
+            self.isLoading.value = false
+            if self.validateErrors() {
+                self.routeToDashboard()
+            }
+        })
     }
 
 
@@ -103,9 +107,12 @@ extension LoginViewModel {
 extension LoginViewModel: BioMetricStatusDelegate {
     func biometricAuthentication(isSuccessful: Bool) {
         if isSuccessful {
-            DispatchQueue.main.async {
-                self.onLogin()
-            }
+            self.canContinue.value = true
+            self.isLoading.value = true
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1.4, execute: {
+                self.isLoading.value = false
+                self.routeToDashboard()
+            })
         }
     }
 }

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5F6FE83528C5B60F00B46B81"
-               BuildableName = "DemoApp.app"
-               BlueprintName = "DemoApp"
-               ReferencedContainer = "container:DemoApp.xcodeproj">
+               BuildableName = "Karoooo.app"
+               BlueprintName = "Karoooo"
+               ReferencedContainer = "container:Karoooo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5F6FE9B928C5C95C00B46B81"
-               BuildableName = "DemoAppTests.xctest"
-               BlueprintName = "DemoAppTests"
-               ReferencedContainer = "container:DemoApp.xcodeproj">
+               BuildableName = "KarooooTests.xctest"
+               BlueprintName = "KarooooTests"
+               ReferencedContainer = "container:Karoooo.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5F6FE9C628C5C96400B46B81"
-               BuildableName = "DemoAppUITests.xctest"
-               BlueprintName = "DemoAppUITests"
-               ReferencedContainer = "container:DemoApp.xcodeproj">
+               BuildableName = "KarooooUITests.xctest"
+               BlueprintName = "KarooooUITests"
+               ReferencedContainer = "container:Karoooo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -65,9 +65,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5F6FE83528C5B60F00B46B81"
-            BuildableName = "DemoApp.app"
-            BlueprintName = "DemoApp"
-            ReferencedContainer = "container:DemoApp.xcodeproj">
+            BuildableName = "Karoooo.app"
+            BlueprintName = "Karoooo"
+            ReferencedContainer = "container:Karoooo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -82,9 +82,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5F6FE83528C5B60F00B46B81"
-            BuildableName = "DemoApp.app"
-            BlueprintName = "DemoApp"
-            ReferencedContainer = "container:DemoApp.xcodeproj">
+            BuildableName = "Karoooo.app"
+            BlueprintName = "Karoooo"
+            ReferencedContainer = "container:Karoooo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

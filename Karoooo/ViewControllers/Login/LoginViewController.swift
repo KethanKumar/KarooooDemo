@@ -32,7 +32,7 @@ class LoginViewController: BaseViewController, ViewController {
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-//        viewModel.clearFields()
+        viewModel.clearFields()
         setUpNavigationStyle(with: .clear)
         self.navigationController?.isNavigationBarHidden = true
     }

@@ -17,4 +17,9 @@ class UserListRouter: RouterProtocol {
     func routeToUserDetail(dataSource: UserDetailDataSource) {
         push(viewController: UserDetailBuilder.build(with: dataSource))
     }
+
+    func routeToLogin(dataSource: LoginDataSource) {
+        let loginView = LoginBuilder.build(with: dataSource)
+        viewController?.navigationController?.viewControllers = [loginView]
+    }
 }

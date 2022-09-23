@@ -70,6 +70,10 @@ private extension UserListViewModel {
 
 extension UserListViewModel {
 
+    func onTapLogout() {
+        router.routeToLogin(dataSource: LoginDataSource(context: self.dataSource.context))
+    }
+
     func onRefreshuserList() {
         self.getUserList()
     }

@@ -13,6 +13,7 @@ class UserListViewController: BaseViewController, ViewController {
     typealias ViewModel = UserListViewModel
     private var viewModel: UserListViewModel!
     @IBOutlet private weak var userListTableView: UITableView!
+    @IBOutlet private weak var logoutBtn: UIButton!
 
     func configure(with viewModel: UserListViewModel) {
         self.viewModel = viewModel
@@ -32,6 +33,9 @@ class UserListViewController: BaseViewController, ViewController {
 private extension UserListViewController {
 
     func configure() {
+        logoutBtn.reactive.controlEvents(.touchUpInside).bind(to: self) { me, _ in
+            me.viewModel.onTapLogout()
+        }
         userListTableView.refreshControl = RefreshControl()
         userListTableView.refreshControl?.addTarget(self, action: #selector(updateTransactions), for: .valueChanged)
         viewModel.isLoading.bind(to: self) {(me, value) in

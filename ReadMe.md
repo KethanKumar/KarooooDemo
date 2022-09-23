@@ -9,9 +9,10 @@ Design Pattern Used:
 MVVM + VIPER
 Reactive Programming with ReactiveKit and Bond framework
 
-DemoApp:
+Karoooo:
 
 Splash Screen
+
 Login Screen:
 
 Login Details:

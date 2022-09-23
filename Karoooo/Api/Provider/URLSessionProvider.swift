@@ -25,7 +25,6 @@ final class URLSessionProvider: ProviderProtocol {
 
     func requestString(service: ServiceProtocol, completion: @escaping (NetworkResponseString) -> Void) {
         let request = URLRequest(service: service)
-        debugPrint(request)
         let task = session.dataTask(request: request, completionHandler: { [weak self] data, response, error in
             let httpResponse = response as? HTTPURLResponse
             self?.handleDataResponseString(data: data, response: httpResponse, error: error, completion: completion)
@@ -71,7 +70,6 @@ final class URLSessionProvider: ProviderProtocol {
 
     func request<T>(type: T.Type, service: ServiceProtocol, completion: @escaping (NetworkResponse<T>) -> Void) where T: Decodable  {
         let request = URLRequest(service: service)
-        debugPrint(request)
         let task = session.dataTask(request: request, completionHandler: { [weak self] data, response, error in
             let httpResponse = response as? HTTPURLResponse
             self?.handleDataResponse(data: data, response: httpResponse, error: error, completion: completion)
@@ -100,7 +98,6 @@ final class URLSessionProvider: ProviderProtocol {
                 guard let data = data else { return completion(.failure(.unknown)) }
                 do {
                     let model = try JSONDecoder().decode(T.self, from: data)
-                    debugPrint(model)
                     completion(.success(T: model))
                 } catch {
                     debugPrint("Decode error")
