@@ -21,6 +21,12 @@
 	</array>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Karoooo wants to access the location</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Karoooo wants to access the location</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Karoooo wants to access the location</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>

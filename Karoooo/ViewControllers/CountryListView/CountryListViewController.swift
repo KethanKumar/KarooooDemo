@@ -40,6 +40,8 @@ private extension CountryListViewController {
             tap.cancelsTouchesInView = false
             me.view.endEditing(true)
         }
+        self.searchBar.backgroundImage = UIImage()
+        self.searchBar.tintColor = .blue
         let headerLbl = MediumLabel()
         headerLbl.fontSize = 16.0
         headerLbl.labelColor = .darkGray

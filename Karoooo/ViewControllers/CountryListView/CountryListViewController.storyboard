@@ -12,7 +12,7 @@
         <!--Country List View Controller-->
         <scene sceneID="UBe-qD-Pb6">
             <objects>
-                <viewController id="5vf-6d-rtR" customClass="CountryListViewController" customModule="DemoApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="5vf-6d-rtR" customClass="CountryListViewController" customModule="Karoooo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Nrn-u1-clj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -24,12 +24,17 @@
                                     <constraint firstAttribute="height" constant="1" id="He5-3D-yy6"/>
                                 </constraints>
                             </view>
-                            <searchBar contentMode="redraw" placeholder="Search" showsCancelButton="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kzr-jb-6fW">
+                            <searchBar contentMode="redraw" placeholder="Search" showsCancelButton="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kzr-jb-6fW">
                                 <rect key="frame" x="0.0" y="49" width="414" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="XW1-bz-ptw"/>
                                 </constraints>
                                 <textInputTraits key="textInputTraits" returnKeyType="search"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="searchField.textColor">
+                                        <color key="value" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <outlet property="delegate" destination="5vf-6d-rtR" id="8Gq-lJ-Pzo"/>
                                 </connections>
@@ -40,7 +45,7 @@
                                 <color key="separatorColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CountryListCell" rowHeight="40" id="bAR-Tl-RSD" customClass="CountryListCell" customModule="DemoApp" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CountryListCell" rowHeight="40" id="bAR-Tl-RSD" customClass="CountryListCell" customModule="Karoooo" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="414" height="40"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bAR-Tl-RSD" id="swv-dp-OPu">
