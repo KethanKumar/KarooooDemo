@@ -15,4 +15,10 @@ class LoginRouter: RouterProtocol {
         self.viewController = viewController
     }
 
+    func routeToUserListView(dataSource: UserListDataSource) {
+        let userListViewController = UserListBuilder.build(with: dataSource)
+        let viewcontrollers: [UIViewController] = [userListViewController]
+        viewController?.navigationController?.viewControllers = viewcontrollers
+    }
+
 }

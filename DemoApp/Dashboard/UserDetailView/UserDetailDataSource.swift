@@ -7,7 +7,9 @@
 //
 
 import Foundation
+import Bond
 
 struct UserDetailDataSource: ViewModelDataSource {
     let context: Context
+    let userDetailModel: Observable<UserListDataModel>
 }

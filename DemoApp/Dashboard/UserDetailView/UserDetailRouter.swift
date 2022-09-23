@@ -15,7 +15,7 @@ class UserDetailRouter: RouterProtocol {
         self.viewController = viewController
     }
 
-    func routeToLoginView(dataSource: LoginDataSource) {
-        push(viewController: LoginBuilder.build(with: dataSource))
+    func routeToUserLocationView(dataSource: UserLocationDataSource) {
+        push(viewController: UserLocationBuilder.build(with: dataSource))
     }
 }

@@ -15,8 +15,13 @@ class UserDetailViewController: BaseViewController, ViewController {
     typealias ViewModel = UserDetailViewModel
     private var viewModel: UserDetailViewModel!
 
-    var timer: Timer?
-
+    @IBOutlet private weak var nameLabel: UILabel!
+    @IBOutlet private weak var phoneLabel: UILabel!
+    @IBOutlet private weak var emailLabel: UILabel!
+    @IBOutlet private weak var companyLabel: UILabel!
+    @IBOutlet private weak var catchPhraseLabel: UILabel!
+    @IBOutlet private weak var userNameLabel: UILabel!
+    @IBOutlet private weak var addressLabel: UILabel!
     func configure(with viewModel: UserDetailViewModel) {
         self.viewModel = viewModel
     }
@@ -24,31 +29,31 @@ class UserDetailViewController: BaseViewController, ViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         configure()
-        startTimer()
     }
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.navigationController?.isNavigationBarHidden = true
-        setUpNavigationStyle(with: .clear)
-    }
-
-    deinit {
-        timer?.invalidate()
+        self.navigationController?.isNavigationBarHidden = false
     }
 }
 
 private extension UserDetailViewController {
 
     func configure() {
-
-    }
-
-    func startTimer() {
-        timer = Timer.scheduledTimer(timeInterval: viewModel.timeInterval.value, target: self, selector: #selector(onRegister), userInfo: nil, repeats: false)
-    }
-
-    @objc func onRegister() {
-        self.viewModel.routeToLogin()
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem.backBarButtonItem(withColor: .black, tapHandler: { [weak self] in
+            self?.viewModel.onBack()
+        })
+        self.navigationItem.title = viewModel.name.value
+        navigationItem.rightBarButtonItem = UIBarButtonItem.textBarButtonItem(withTitle: "Location", andTextColor: UIColor.blue) { [weak self] in
+            self?.viewModel.onTapLocation()
+        }
+        navigationItem.rightBarButtonItem?.setTitleTextAttributes([.font: UIFont.boldSystemFont(ofSize: 14), .foregroundColor: UIColor.blue], for: .normal)
+        viewModel.name.bind(to: nameLabel)
+        viewModel.userName.bind(to: userNameLabel)
+        viewModel.phone.bind(to: phoneLabel)
+        viewModel.email.bind(to: emailLabel)
+        viewModel.companyName.bind(to: companyLabel)
+        viewModel.catchPhrase.bind(to: catchPhraseLabel)
+        viewModel.address.bind(to: addressLabel)
     }
 }

@@ -55,9 +55,7 @@ final class URLSessionProvider: ProviderProtocol {
             case 200...299, 403, 500, 404:
                 guard let data = data else { return completion(.failure(.unknown)) }
                 let model = String(data: data, encoding: .ascii)
-                debugPrint(model ?? "")
                 completion(.success(model ?? ""))
-
             case 401:
                 debugPrint("Invalid token error")
                 completion(.failure(.invalidToken))

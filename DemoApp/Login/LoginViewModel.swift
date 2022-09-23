@@ -21,8 +21,8 @@ class LoginViewModel: RoutingViewModel {
     private let userProfile: UserProfileProvider
     let canContinue = Observable(false)
     let isLoading = Observable<Bool>(false)
-    let email = Observable<String?>("")
-    let password = Observable<String?>("")
+    let email = Observable<String?>("kethankumar87@gmail.com")
+    let password = Observable<String?>("Test!123")
     let isEmailInvalid = Observable<Bool>(false)
     let isPasswordInvalid = Observable<Bool>(false)
     let loginSuccess = Observable(false)
@@ -69,23 +69,19 @@ private extension LoginViewModel {
 extension LoginViewModel {
 
     func clearFields() {
-//        self.email.value = ""
-//        self.password.value = ""
-    }
-
-    func onSkip() {
-//        router.routeToDashboardView(dataSource: DashboardDataSource(context: self.context, flowType: Observable(.skip)))
+        self.email.value = ""
+        self.password.value = ""
     }
 
     func onLogin() {
         if validateErrors() {
-
+            self.routeToDashboard()
         }
     }
 
 
     func routeToDashboard() {
-//        router.routeToDashboardView(dataSource: DashboardDataSource(context: self.context, flowType: Observable(.login)))
+        router.routeToUserListView(dataSource: UserListDataSource(context: self.context))
     }
 
     func onTapregister() {

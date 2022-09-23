@@ -111,6 +111,15 @@
 		5FE5F7D328DD82FB00CE3339 /* UserDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE5F7C728DD82FB00CE3339 /* UserDetailRouter.swift */; };
 		5FE5F7D428DD82FB00CE3339 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE5F7C828DD82FB00CE3339 /* UserDetailViewController.swift */; };
 		5FE5F7D528DD82FB00CE3339 /* UserDetailBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE5F7C928DD82FB00CE3339 /* UserDetailBuilder.swift */; };
+		5FE5F7DA28DD8C4400CE3339 /* UserListCellDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE5F7D728DD8C4400CE3339 /* UserListCellDataSource.swift */; };
+		5FE5F7DB28DD8C4400CE3339 /* UserListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE5F7D828DD8C4400CE3339 /* UserListCellViewModel.swift */; };
+		5FE5F7DC28DD8C4400CE3339 /* UserListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE5F7D928DD8C4400CE3339 /* UserListCell.swift */; };
+		5FE5F7E428DD9C7200CE3339 /* UserLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE5F7DE28DD9C7200CE3339 /* UserLocationViewController.swift */; };
+		5FE5F7E528DD9C7200CE3339 /* UserLocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE5F7DF28DD9C7200CE3339 /* UserLocationViewModel.swift */; };
+		5FE5F7E628DD9C7200CE3339 /* UserLocationBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE5F7E028DD9C7200CE3339 /* UserLocationBuilder.swift */; };
+		5FE5F7E728DD9C7200CE3339 /* UserLocationViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE5F7E128DD9C7200CE3339 /* UserLocationViewController.storyboard */; };
+		5FE5F7E828DD9C7200CE3339 /* UserLocationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE5F7E228DD9C7200CE3339 /* UserLocationRouter.swift */; };
+		5FE5F7E928DD9C7200CE3339 /* UserLocationDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE5F7E328DD9C7200CE3339 /* UserLocationDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -235,6 +244,16 @@
 		5FE5F7C728DD82FB00CE3339 /* UserDetailRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailRouter.swift; sourceTree = "<group>"; };
 		5FE5F7C828DD82FB00CE3339 /* UserDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
 		5FE5F7C928DD82FB00CE3339 /* UserDetailBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailBuilder.swift; sourceTree = "<group>"; };
+		5FE5F7D728DD8C4400CE3339 /* UserListCellDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListCellDataSource.swift; sourceTree = "<group>"; };
+		5FE5F7D828DD8C4400CE3339 /* UserListCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListCellViewModel.swift; sourceTree = "<group>"; };
+		5FE5F7D928DD8C4400CE3339 /* UserListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListCell.swift; sourceTree = "<group>"; };
+		5FE5F7DE28DD9C7200CE3339 /* UserLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocationViewController.swift; sourceTree = "<group>"; };
+		5FE5F7DF28DD9C7200CE3339 /* UserLocationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocationViewModel.swift; sourceTree = "<group>"; };
+		5FE5F7E028DD9C7200CE3339 /* UserLocationBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocationBuilder.swift; sourceTree = "<group>"; };
+		5FE5F7E128DD9C7200CE3339 /* UserLocationViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UserLocationViewController.storyboard; sourceTree = "<group>"; };
+		5FE5F7E228DD9C7200CE3339 /* UserLocationRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocationRouter.swift; sourceTree = "<group>"; };
+		5FE5F7E328DD9C7200CE3339 /* UserLocationDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocationDataSource.swift; sourceTree = "<group>"; };
+		5FE5F7EA28DDA52300CE3339 /* ReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -269,6 +288,7 @@
 		5F6FE82D28C5B60F00B46B81 = {
 			isa = PBXGroup;
 			children = (
+				5FE5F7EA28DDA52300CE3339 /* ReadMe.md */,
 				5F6FE83828C5B60F00B46B81 /* DemoApp */,
 				5F6FE9BB28C5C95C00B46B81 /* DemoAppTests */,
 				5F6FE9C828C5C96400B46B81 /* DemoAppUITests */,
@@ -546,8 +566,8 @@
 				5FB95CBC28D320E7006A3E6B /* LoginViewController.swift */,
 				5FB95CBB28D320E7006A3E6B /* LoginDataSource.swift */,
 				5FB95CBA28D320E7006A3E6B /* LoginViewModel.swift */,
-				5FB95CBD28D320E7006A3E6B /* LoginBuilder.swift */,
 				5FB95CBE28D320E7006A3E6B /* LoginRouter.swift */,
+				5FB95CBD28D320E7006A3E6B /* LoginBuilder.swift */,
 			);
 			name = Login;
 			path = DemoApp/Login;
@@ -595,6 +615,7 @@
 			children = (
 				5FE5F7BC28DD82FB00CE3339 /* UserListView */,
 				5FE5F7C328DD82FB00CE3339 /* UserDetailView */,
+				5FE5F7DD28DD9C7200CE3339 /* UserLocationView */,
 			);
 			path = Dashboard;
 			sourceTree = "<group>";
@@ -602,10 +623,11 @@
 		5FE5F7BC28DD82FB00CE3339 /* UserListView */ = {
 			isa = PBXGroup;
 			children = (
+				5FE5F7D628DD8C4400CE3339 /* UserListCell */,
 				5FE5F7BD28DD82FB00CE3339 /* UserListViewController.storyboard */,
 				5FE5F7C228DD82FB00CE3339 /* UserListViewController.swift */,
-				5FE5F7BE28DD82FB00CE3339 /* UserListViewModel.swift */,
 				5FE5F7BF28DD82FB00CE3339 /* UserListDataSource.swift */,
+				5FE5F7BE28DD82FB00CE3339 /* UserListViewModel.swift */,
 				5FE5F7C028DD82FB00CE3339 /* UserListRouter.swift */,
 				5FE5F7C128DD82FB00CE3339 /* UserListBuilder.swift */,
 			);
@@ -623,6 +645,29 @@
 				5FE5F7C928DD82FB00CE3339 /* UserDetailBuilder.swift */,
 			);
 			path = UserDetailView;
+			sourceTree = "<group>";
+		};
+		5FE5F7D628DD8C4400CE3339 /* UserListCell */ = {
+			isa = PBXGroup;
+			children = (
+				5FE5F7D928DD8C4400CE3339 /* UserListCell.swift */,
+				5FE5F7D728DD8C4400CE3339 /* UserListCellDataSource.swift */,
+				5FE5F7D828DD8C4400CE3339 /* UserListCellViewModel.swift */,
+			);
+			path = UserListCell;
+			sourceTree = "<group>";
+		};
+		5FE5F7DD28DD9C7200CE3339 /* UserLocationView */ = {
+			isa = PBXGroup;
+			children = (
+				5FE5F7E128DD9C7200CE3339 /* UserLocationViewController.storyboard */,
+				5FE5F7DE28DD9C7200CE3339 /* UserLocationViewController.swift */,
+				5FE5F7E328DD9C7200CE3339 /* UserLocationDataSource.swift */,
+				5FE5F7DF28DD9C7200CE3339 /* UserLocationViewModel.swift */,
+				5FE5F7E228DD9C7200CE3339 /* UserLocationRouter.swift */,
+				5FE5F7E028DD9C7200CE3339 /* UserLocationBuilder.swift */,
+			);
+			path = UserLocationView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -741,6 +786,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F6FE8FE28C5B7E300B46B81 /* WelcomeViewController.storyboard in Resources */,
+				5FE5F7E728DD9C7200CE3339 /* UserLocationViewController.storyboard in Resources */,
 				5FB95CC528D320E7006A3E6B /* LoginViewController.storyboard in Resources */,
 				5FD9A8CB28DC3F2100BA0937 /* ErrorAlertView.xib in Resources */,
 				5FE5F7D028DD82FB00CE3339 /* UserDetailViewController.storyboard in Resources */,
@@ -779,9 +825,11 @@
 				5F6FE8CB28C5B7E300B46B81 /* Environment.swift in Sources */,
 				5F6FE8FC28C5B7E300B46B81 /* JsonNull+Class.swift in Sources */,
 				5F6FE96D28C5C29B00B46B81 /* DemoTableCell.swift in Sources */,
+				5FE5F7E828DD9C7200CE3339 /* UserLocationRouter.swift in Sources */,
 				5F6FE91728C5BA1A00B46B81 /* UserProfileProvider.swift in Sources */,
 				5F6FE8C828C5B7E300B46B81 /* URLSessionProtocol.swift in Sources */,
 				5FE5F7CC28DD82FB00CE3339 /* UserListDataSource.swift in Sources */,
+				5FE5F7E628DD9C7200CE3339 /* UserLocationBuilder.swift in Sources */,
 				5F6FE94828C5BC2000B46B81 /* UIView+Autolayout.swift in Sources */,
 				5F6FE95528C5BC2000B46B81 /* ReusableCell.swift in Sources */,
 				5F6FE96F28C5C29B00B46B81 /* DemoTableCellDataSource.swift in Sources */,
@@ -789,6 +837,7 @@
 				5FE5F7D428DD82FB00CE3339 /* UserDetailViewController.swift in Sources */,
 				5F6FE94928C5BC2000B46B81 /* NibView.swift in Sources */,
 				5F6FE90128C5B7E300B46B81 /* WelcomeViewModel.swift in Sources */,
+				5FE5F7DA28DD8C4400CE3339 /* UserListCellDataSource.swift in Sources */,
 				5FE5F7D328DD82FB00CE3339 /* UserDetailRouter.swift in Sources */,
 				5F6FE8C428C5B7E300B46B81 /* NetworkError.swift in Sources */,
 				5F6FE8B928C5B7E300B46B81 /* ViewController.swift in Sources */,
@@ -798,11 +847,13 @@
 				5F6FE8BD28C5B7E300B46B81 /* ViewModelDataSource.swift in Sources */,
 				5F6FE96E28C5C29B00B46B81 /* DemoTableCellViewModel.swift in Sources */,
 				5F6FE85A28C5B6A400B46B81 /* AppDelegate.swift in Sources */,
+				5FE5F7E928DD9C7200CE3339 /* UserLocationDataSource.swift in Sources */,
 				5F6FE85B28C5B6A400B46B81 /* NavigationController.swift in Sources */,
 				5FB95CD528D3233E006A3E6B /* PersistenceController.swift in Sources */,
 				5FB95CDF28D32520006A3E6B /* CustomTextField.swift in Sources */,
 				5FE5F7CD28DD82FB00CE3339 /* UserListRouter.swift in Sources */,
 				5F6FE96628C5BF6F00B46B81 /* URLRequest+Service.swift in Sources */,
+				5FE5F7DB28DD8C4400CE3339 /* UserListCellViewModel.swift in Sources */,
 				5FD9A8BA28DC3A3900BA0937 /* BoldLabel.swift in Sources */,
 				5FB95CDC28D32415006A3E6B /* UIDevice+Info.swift in Sources */,
 				5F6FE91328C5BA1A00B46B81 /* UserAuthenticationControllerObserver.swift in Sources */,
@@ -828,6 +879,7 @@
 				5F6FE8B828C5B7E300B46B81 /* Context.swift in Sources */,
 				5F6FE8C228C5B7E300B46B81 /* HTTPMethod.swift in Sources */,
 				5F6FE8CA28C5B7E300B46B81 /* Endpoints.swift in Sources */,
+				5FE5F7E528DD9C7200CE3339 /* UserLocationViewModel.swift in Sources */,
 				5F6FE8C028C5B7E300B46B81 /* ParametersEncoding.swift in Sources */,
 				5F6FE94F28C5BC2000B46B81 /* UIImage+Rotation.swift in Sources */,
 				5F6FE8C128C5B7E300B46B81 /* NetworkResponse.swift in Sources */,
@@ -839,6 +891,7 @@
 				5F6FE95728C5BC2000B46B81 /* KeychainHelper.swift in Sources */,
 				5FE5F7D128DD82FB00CE3339 /* UserDetailDataSource.swift in Sources */,
 				5F6FE94528C5BC2000B46B81 /* RefreshControl.swift in Sources */,
+				5FE5F7E428DD9C7200CE3339 /* UserLocationViewController.swift in Sources */,
 				5F6FE8BA28C5B7E300B46B81 /* ViewModel.swift in Sources */,
 				5FD9A8CE28DC444400BA0937 /* BiometricManager.swift in Sources */,
 				5F6FE90228C5B7E300B46B81 /* WelcomeRouter.swift in Sources */,
@@ -857,6 +910,7 @@
 				5F6FE8C328C5B7E300B46B81 /* TaskType.swift in Sources */,
 				5FD9A8BC28DC3A3900BA0937 /* MediumLabel.swift in Sources */,
 				5F6FE8BB28C5B7E300B46B81 /* Builder.swift in Sources */,
+				5FE5F7DC28DD8C4400CE3339 /* UserListCell.swift in Sources */,
 				5FB95CC428D320E7006A3E6B /* LoginRouter.swift in Sources */,
 				5F6FE8C728C5B7E300B46B81 /* ServiceProtocol.swift in Sources */,
 				5FD9A8BB28DC3A3900BA0937 /* RegularLabel.swift in Sources */,

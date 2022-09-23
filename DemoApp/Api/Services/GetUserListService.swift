@@ -37,7 +37,7 @@ typealias UserListModel = [UserListDataModel]
 
 enum GetuserListService: ServiceProtocol {
 
-    case login(email: String, password: String)
+    case get
 
     var baseURL: URL {
         guard let url = Endpoint.DemoBaseurl.url else { fatalError("BaseURL is nil") }
