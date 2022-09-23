@@ -1,9 +1,8 @@
 //
 //  AnimationView.swift
-//  Oyster-Native-App
+//  DemoApp
 //
-//  Created by Emmanuel Casañas Cruz on 01/09/20.
-//  Copyright © 2020 Oyster. All rights reserved.
+//  Created by Kethan on 23/09/22.
 //
 
 import Foundation
@@ -24,13 +23,7 @@ extension AnimationView {
        playAnimation(animationName: "spinner")
    }
 
-    func animateLogo(completion: ((Bool) -> Void)?) {
-        playAnimation(animationName: "logosplash", loopMode: .playOnce, completion: completion)
-    }
 
-    func animateLoadingButton() {
-        playAnimation(animationName: "spinnerButton")
-    }
 
     func animateImage(name: String, playMode: LottieLoopMode = .playOnce, completion: ((Bool) -> Void)?) {
         playAnimation(animationName: name, loopMode: playMode, completion: completion)

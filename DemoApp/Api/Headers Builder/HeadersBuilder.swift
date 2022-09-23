@@ -2,14 +2,10 @@
 //  HeadersBuilder.swift
 //  DemoApp
 //
-//  Created by Kethan Kumar on 05/09/2022.
-//  Copyright © 2022 ODF. All rights reserved.
+//  Created by Kethan Kumar on 20/09/2022.
 //
 
 import UIKit
-
-// UIDevice.current.uidd
-// UIDevice.current.ipAddress
 
 public class HeadersBuilder {
     
@@ -21,6 +17,3 @@ public class HeadersBuilder {
     }
 }
 
-
-
-//lets capture deviceId, ip address

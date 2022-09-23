@@ -2,7 +2,7 @@
 //  GetUserListService.swift
 //  DemoApp
 //
-//  Created by Kethan on 23/09/22.
+//  Created by Kethan Kumar on 20/09/2022.
 //
 
 import Foundation

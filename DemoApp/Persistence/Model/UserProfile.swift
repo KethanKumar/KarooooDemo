@@ -1,8 +1,8 @@
 //
 //  UserProfile.swift
-//  DCU
+//  DemoApp
 //
-//  Created by Kethan on 24/02/22.
+//  Created by Kethan Kumar on 20/09/2022.
 //
 
 import Foundation

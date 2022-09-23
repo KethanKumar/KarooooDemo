@@ -2,15 +2,15 @@
 //  RefreshControl.swift
 //  DemoApp
 //
-//  Created by Kethan Kumar on 05/09/2022.
-//  Copyright © 2022 ODF. All rights reserved.
+//  Created by Kethan on 23/09/22.
 //
 
 import UIKit
+import Lottie
 
 class RefreshControl: UIRefreshControl {
 
-//    private let animaitonView = AnimationView()
+    private let animaitonView = AnimationView()
 
     override init() {
         super.init()
@@ -38,9 +38,9 @@ private extension RefreshControl {
     func configure() {
         backgroundColor = .clear
         tintColor = .clear
-//        addSubview(animaitonView)
-//        animaitonView.center(to: self)
-//        animaitonView.setSize(40, 40)
-//        animaitonView.animateLoading()
+        addSubview(animaitonView)
+        animaitonView.center(to: self)
+        animaitonView.setSize(40, 40)
+        animaitonView.animateLoading()
     }
 }
