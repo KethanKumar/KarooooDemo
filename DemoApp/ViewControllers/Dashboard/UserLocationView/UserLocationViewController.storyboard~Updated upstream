@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5vf-6d-rtR">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--User Location View Controller-->
+        <scene sceneID="UBe-qD-Pb6">
+            <objects>
+                <viewController id="5vf-6d-rtR" customClass="UserLocationViewController" customModule="DemoApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Nrn-u1-clj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OCV-6z-iQ1">
+                                <rect key="frame" x="0.0" y="49" width="414" height="813"/>
+                                <connections>
+                                    <outlet property="delegate" destination="5vf-6d-rtR" id="9AV-gY-JtU"/>
+                                </connections>
+                            </mapView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0j7-Ws-d6g">
+                                <rect key="frame" x="0.0" y="48" width="414" height="1"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="Zde-3w-XKF"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8zc-c6-CjR"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="0j7-Ws-d6g" firstAttribute="top" secondItem="8zc-c6-CjR" secondAttribute="top" id="NQA-h6-LDz"/>
+                            <constraint firstItem="OCV-6z-iQ1" firstAttribute="leading" secondItem="8zc-c6-CjR" secondAttribute="leading" id="UKc-e8-Xcz"/>
+                            <constraint firstItem="0j7-Ws-d6g" firstAttribute="leading" secondItem="Nrn-u1-clj" secondAttribute="leading" id="X6E-dj-WKO"/>
+                            <constraint firstItem="8zc-c6-CjR" firstAttribute="bottom" secondItem="OCV-6z-iQ1" secondAttribute="bottom" id="bm7-cs-FpI"/>
+                            <constraint firstAttribute="trailing" secondItem="OCV-6z-iQ1" secondAttribute="trailing" id="dqC-Kc-nc4"/>
+                            <constraint firstItem="OCV-6z-iQ1" firstAttribute="top" secondItem="0j7-Ws-d6g" secondAttribute="bottom" id="kQV-3V-3i1"/>
+                            <constraint firstAttribute="trailing" secondItem="0j7-Ws-d6g" secondAttribute="trailing" id="lcu-LM-Xf6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="OCV-6z-iQ1" id="8Ui-OU-XdU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UFc-Jh-stP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="276.81159420289856" y="-241.07142857142856"/>
+        </scene>
+    </scenes>
+</document>

@@ -36,6 +36,6 @@ class WelcomeScreenTest: XCTestCase {
         let welcomeRouter = WelcomeRouter(viewController: welcomeViewController)
         let welcomeViewDataSource = WelcomeDataSource(context: context)
         let welcomeViewModel = WelcomeViewModel(dataSource: welcomeViewDataSource, router: welcomeRouter)
-        welcomeViewModel.test()
+        welcomeViewModel.routeToLogin()
     }
 }

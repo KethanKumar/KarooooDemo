@@ -87,6 +87,8 @@
 		5FB95CDC28D32415006A3E6B /* UIDevice+Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB95CDB28D32415006A3E6B /* UIDevice+Info.swift */; };
 		5FB95CDF28D32520006A3E6B /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB95CDD28D32520006A3E6B /* CustomTextField.swift */; };
 		5FB95CE028D32520006A3E6B /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB95CDE28D32520006A3E6B /* CustomButton.swift */; };
+		5FCF5B0A28DE077C005E238D /* LoginTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF5B0928DE077C005E238D /* LoginTest.swift */; };
+		5FCF5B0C28DE07B3005E238D /* UserListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF5B0B28DE07B3005E238D /* UserListTest.swift */; };
 		5FD9A8BA28DC3A3900BA0937 /* BoldLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD9A8B728DC3A3800BA0937 /* BoldLabel.swift */; };
 		5FD9A8BB28DC3A3900BA0937 /* RegularLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD9A8B828DC3A3900BA0937 /* RegularLabel.swift */; };
 		5FD9A8BC28DC3A3900BA0937 /* MediumLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD9A8B928DC3A3900BA0937 /* MediumLabel.swift */; };
@@ -220,6 +222,8 @@
 		5FB95CDB28D32415006A3E6B /* UIDevice+Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Info.swift"; sourceTree = "<group>"; };
 		5FB95CDD28D32520006A3E6B /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		5FB95CDE28D32520006A3E6B /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		5FCF5B0928DE077C005E238D /* LoginTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTest.swift; sourceTree = "<group>"; };
+		5FCF5B0B28DE07B3005E238D /* UserListTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListTest.swift; sourceTree = "<group>"; };
 		5FD9A8B728DC3A3800BA0937 /* BoldLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoldLabel.swift; sourceTree = "<group>"; };
 		5FD9A8B828DC3A3900BA0937 /* RegularLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegularLabel.swift; sourceTree = "<group>"; };
 		5FD9A8B928DC3A3900BA0937 /* MediumLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediumLabel.swift; sourceTree = "<group>"; };
@@ -546,6 +550,8 @@
 			children = (
 				5F6FE9AC28C5C61C00B46B81 /* WelcomeScreenTest.swift */,
 				5F6FE9BC28C5C95C00B46B81 /* DemoAppTests.swift */,
+				5FCF5B0928DE077C005E238D /* LoginTest.swift */,
+				5FCF5B0B28DE07B3005E238D /* UserListTest.swift */,
 			);
 			path = DemoAppTests;
 			sourceTree = "<group>";
@@ -921,6 +927,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FCF5B0C28DE07B3005E238D /* UserListTest.swift in Sources */,
+				5FCF5B0A28DE077C005E238D /* LoginTest.swift in Sources */,
 				5F6FE9D228C5C96E00B46B81 /* WelcomeScreenTest.swift in Sources */,
 				5F6FE9BD28C5C95C00B46B81 /* DemoAppTests.swift in Sources */,
 			);
