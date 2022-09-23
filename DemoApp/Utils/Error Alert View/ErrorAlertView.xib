@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SFUIText-Regular.ttf">
+            <string>SFUIText-Regular</string>
+        </array>
+        <array key="SFUIText-Semibold.ttf">
+            <string>SFUIText-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ErrorAlertView" customModule="Metta" customModuleProvider="target">
+            <connections>
+                <outlet property="messageLabel" destination="e2m-Gc-8FQ" id="0ZD-1b-K88"/>
+                <outlet property="titleLabel" destination="qiL-EW-bei" id="6Ly-Is-CsU"/>
+                <outlet property="topLayerView" destination="2Cv-WY-Amd" id="ZSZ-cn-PUt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="366" height="123"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="X6e-ZG-428">
+                    <rect key="frame" x="15" y="15" width="336" height="93"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XyH-s0-Ydj">
+                            <rect key="frame" x="0.0" y="0.0" width="336" height="27"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¡Intentar otra vez!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qiL-EW-bei">
+                            <rect key="frame" x="0.0" y="27" width="336" height="17"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="17" id="zGM-Fr-zUe"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="SFUIText-Semibold" family="SF UI Text" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="72p-8m-JL1">
+                            <rect key="frame" x="0.0" y="44" width="336" height="5"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="5" id="e1p-Tl-n6t"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hemos reenviado el código a tu número" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e2m-Gc-8FQ">
+                            <rect key="frame" x="0.0" y="49" width="336" height="17"/>
+                            <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1rt-kS-m2o">
+                            <rect key="frame" x="0.0" y="66" width="336" height="27"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="XyH-s0-Ydj" firstAttribute="height" secondItem="1rt-kS-m2o" secondAttribute="height" id="Qbd-ni-fEZ"/>
+                    </constraints>
+                </stackView>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Cv-WY-Amd">
+                    <rect key="frame" x="0.0" y="116" width="366" height="7"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" name="OysterRed"/>
+            <constraints>
+                <constraint firstItem="X6e-ZG-428" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="15" id="Ab7-hZ-Aut"/>
+                <constraint firstItem="2Cv-WY-Amd" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Lml-gW-scT"/>
+                <constraint firstAttribute="bottom" secondItem="2Cv-WY-Amd" secondAttribute="bottom" id="Qoz-Xk-vk1"/>
+                <constraint firstItem="2Cv-WY-Amd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="V12-nn-hfV"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="X6e-ZG-428" secondAttribute="bottom" constant="15" id="eDt-7F-0gq"/>
+                <constraint firstItem="2Cv-WY-Amd" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="ed8-Xf-DgM"/>
+                <constraint firstItem="X6e-ZG-428" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="flu-M0-U34"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="X6e-ZG-428" secondAttribute="trailing" constant="15" id="xhg-BL-GBy"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="131.8840579710145" y="118.61413043478262"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="OysterRed">
+            <color red="1" green="0.36470588235294116" blue="0.31764705882352939" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

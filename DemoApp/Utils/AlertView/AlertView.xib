@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SFUIText-Regular.ttf">
+            <string>SFUIText-Regular</string>
+        </array>
+        <array key="SFUIText-Semibold.ttf">
+            <string>SFUIText-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AlertView" customModule="Medsi" customModuleProvider="target">
+            <connections>
+                <outlet property="dismissButton" destination="3hh-F3-6EW" id="wrh-st-iSq"/>
+                <outlet property="messageLabel" destination="zAs-uA-yy1" id="8ZR-ak-y9W"/>
+                <outlet property="titleLabel" destination="48q-an-4Ka" id="flU-9F-4bE"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="T9K-Rr-WKM">
+            <rect key="frame" x="0.0" y="0.0" width="366" height="123"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="S24-zq-aue">
+                    <rect key="frame" x="15" y="59" width="336" height="49"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="39n-BP-YuQ">
+                            <rect key="frame" x="0.0" y="0.0" width="336" height="5"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Éxito" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="48q-an-4Ka">
+                            <rect key="frame" x="0.0" y="5" width="336" height="17"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="17" id="BLS-uM-FLd"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="SFUIText-Semibold" family="SF UI Text" pointSize="14"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vie-mt-nzd">
+                            <rect key="frame" x="0.0" y="22" width="336" height="5"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="5" id="mwM-ps-btC"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CLABE copiada." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zAs-uA-yy1">
+                            <rect key="frame" x="0.0" y="27" width="336" height="17"/>
+                            <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="14"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0r2-S3-c7B">
+                            <rect key="frame" x="0.0" y="44" width="336" height="5"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="39n-BP-YuQ" firstAttribute="height" secondItem="0r2-S3-c7B" secondAttribute="height" id="asT-Ts-EpB"/>
+                    </constraints>
+                </stackView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3hh-F3-6EW">
+                    <rect key="frame" x="0.0" y="0.0" width="366" height="123"/>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="4mo-lo-aCK"/>
+            <color key="backgroundColor" red="0.0039215686274509803" green="0.27450980392156865" blue="0.31764705882352939" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="3hh-F3-6EW" firstAttribute="top" secondItem="T9K-Rr-WKM" secondAttribute="top" id="9Y5-Ft-LUo"/>
+                <constraint firstItem="3hh-F3-6EW" firstAttribute="leading" secondItem="4mo-lo-aCK" secondAttribute="leading" id="HH9-SP-bt7"/>
+                <constraint firstItem="3hh-F3-6EW" firstAttribute="bottom" secondItem="4mo-lo-aCK" secondAttribute="bottom" id="QxS-Kl-gs9"/>
+                <constraint firstItem="4mo-lo-aCK" firstAttribute="bottom" secondItem="S24-zq-aue" secondAttribute="bottom" constant="15" id="aoz-mB-n9I"/>
+                <constraint firstItem="S24-zq-aue" firstAttribute="leading" secondItem="4mo-lo-aCK" secondAttribute="leading" constant="15" id="gdI-qu-rtH"/>
+                <constraint firstItem="3hh-F3-6EW" firstAttribute="trailing" secondItem="4mo-lo-aCK" secondAttribute="trailing" id="m44-km-4QJ"/>
+                <constraint firstItem="S24-zq-aue" firstAttribute="top" secondItem="4mo-lo-aCK" secondAttribute="top" constant="15" id="oSb-Xf-bSQ"/>
+                <constraint firstItem="4mo-lo-aCK" firstAttribute="trailing" secondItem="S24-zq-aue" secondAttribute="trailing" constant="15" id="ts0-gK-894"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="140.57971014492756" y="118.86160714285714"/>
+        </view>
+    </objects>
+</document>
