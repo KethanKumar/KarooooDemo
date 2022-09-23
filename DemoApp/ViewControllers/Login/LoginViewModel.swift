@@ -1,13 +1,11 @@
 //
 // LoginViewModel.swift
-//  DCU
+//  DemoApp
 //
-//  Created by Kethan Kumar on 02/02/2022.
-//  Copyright © 2022 ODF. All rights reserved.
+//  Created by Kethan on 23/09/22.
 //
 
 import Foundation
-import UIKit
 import ReactiveKit
 import Bond
 

@@ -34,12 +34,6 @@
 		5F6FE8CB28C5B7E300B46B81 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6FE87728C5B7E300B46B81 /* Environment.swift */; };
 		5F6FE8CE28C5B7E300B46B81 /* ResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6FE87C28C5B7E300B46B81 /* ResponseError.swift */; };
 		5F6FE8FC28C5B7E300B46B81 /* JsonNull+Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6FE8B028C5B7E300B46B81 /* JsonNull+Class.swift */; };
-		5F6FE8FD28C5B7E300B46B81 /* WelcomeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6FE8B228C5B7E300B46B81 /* WelcomeDataSource.swift */; };
-		5F6FE8FE28C5B7E300B46B81 /* WelcomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F6FE8B328C5B7E300B46B81 /* WelcomeViewController.storyboard */; };
-		5F6FE8FF28C5B7E300B46B81 /* WelcomeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6FE8B428C5B7E300B46B81 /* WelcomeBuilder.swift */; };
-		5F6FE90028C5B7E300B46B81 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6FE8B528C5B7E300B46B81 /* WelcomeViewController.swift */; };
-		5F6FE90128C5B7E300B46B81 /* WelcomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6FE8B628C5B7E300B46B81 /* WelcomeViewModel.swift */; };
-		5F6FE90228C5B7E300B46B81 /* WelcomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6FE8B728C5B7E300B46B81 /* WelcomeRouter.swift */; };
 		5F6FE91228C5BA1A00B46B81 /* UserAuthenticationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6FE90428C5BA1A00B46B81 /* UserAuthenticationController.swift */; };
 		5F6FE91328C5BA1A00B46B81 /* UserAuthenticationControllerObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6FE90528C5BA1A00B46B81 /* UserAuthenticationControllerObserver.swift */; };
 		5F6FE91528C5BA1A00B46B81 /* UserInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6FE90828C5BA1A00B46B81 /* UserInformation.swift */; };
@@ -65,12 +59,6 @@
 		5F6FE9CA28C5C96400B46B81 /* DemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6FE9C928C5C96400B46B81 /* DemoAppUITests.swift */; };
 		5F6FE9CC28C5C96400B46B81 /* DemoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6FE9CB28C5C96400B46B81 /* DemoAppUITestsLaunchTests.swift */; };
 		5F6FE9D228C5C96E00B46B81 /* WelcomeScreenTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6FE9AC28C5C61C00B46B81 /* WelcomeScreenTest.swift */; };
-		5FB95CC028D320E7006A3E6B /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB95CBA28D320E7006A3E6B /* LoginViewModel.swift */; };
-		5FB95CC128D320E7006A3E6B /* LoginDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB95CBB28D320E7006A3E6B /* LoginDataSource.swift */; };
-		5FB95CC228D320E7006A3E6B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB95CBC28D320E7006A3E6B /* LoginViewController.swift */; };
-		5FB95CC328D320E7006A3E6B /* LoginBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB95CBD28D320E7006A3E6B /* LoginBuilder.swift */; };
-		5FB95CC428D320E7006A3E6B /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB95CBE28D320E7006A3E6B /* LoginRouter.swift */; };
-		5FB95CC528D320E7006A3E6B /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB95CBF28D320E7006A3E6B /* LoginViewController.storyboard */; };
 		5FB95CC828D3212D006A3E6B /* Bond in Frameworks */ = {isa = PBXBuildFile; productRef = 5FB95CC728D3212D006A3E6B /* Bond */; };
 		5FB95CCD28D322A8006A3E6B /* SwiftKeychainWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = 5FB95CCC28D322A8006A3E6B /* SwiftKeychainWrapper */; };
 		5FB95CD428D3233E006A3E6B /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB95CD128D3233E006A3E6B /* UserProfile.swift */; };
@@ -87,6 +75,48 @@
 		5FCF5B1428DE096D005E238D /* spinner.json in Resources */ = {isa = PBXBuildFile; fileRef = 5FCF5B1228DE096D005E238D /* spinner.json */; };
 		5FCF5B1628DE097C005E238D /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF5B1528DE097C005E238D /* AnimationView.swift */; };
 		5FCF5B1928DE0991005E238D /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 5FCF5B1828DE0991005E238D /* Lottie */; };
+		5FCF5BDD28DE0AE8005E238D /* WelcomeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF5B2728DE0AE8005E238D /* WelcomeDataSource.swift */; };
+		5FCF5BDE28DE0AE8005E238D /* WelcomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FCF5B2828DE0AE8005E238D /* WelcomeViewController.storyboard */; };
+		5FCF5BE028DE0AE8005E238D /* WelcomeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF5B2A28DE0AE8005E238D /* WelcomeBuilder.swift */; };
+		5FCF5BE828DE0AE8005E238D /* WelcomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF5B3228DE0AE8005E238D /* WelcomeViewModel.swift */; };
+		5FCF5BEC28DE0AE8005E238D /* WelcomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF5B3628DE0AE8005E238D /* WelcomeRouter.swift */; };
+		5FCF5BF128DE0AE8005E238D /* UserListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FCF5B3D28DE0AE8005E238D /* UserListViewController.storyboard */; };
+		5FCF5BF728DE0AE8005E238D /* UserListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF5B4428DE0AE8005E238D /* UserListCellViewModel.swift */; };
+		5FCF5BFB28DE0AE8005E238D /* UserListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF5B4828DE0AE8005E238D /* UserListCell.swift */; };
+		5FCF5BFF28DE0AE8005E238D /* UserListCellDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF5B4C28DE0AE8005E238D /* UserListCellDataSource.swift */; };
+		5FCF5C0628DE0AE8005E238D /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF5B5328DE0AE8005E238D /* UserListViewModel.swift */; };
+		5FCF5C0728DE0AE8005E238D /* UserListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF5B5428DE0AE8005E238D /* UserListDataSource.swift */; };
+		5FCF5C0828DE0AE8005E238D /* UserListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF5B5528DE0AE8005E238D /* UserListRouter.swift */; };
+		5FCF5C0B28DE0AE8005E238D /* UserListBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF5B5828DE0AE8005E238D /* UserListBuilder.swift */; };
+		5FCF5C1628DE0AE8005E238D /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF5B6328DE0AE8005E238D /* UserListViewController.swift */; };
+		5FCF5C1E28DE0AE8005E238D /* UserDetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FCF5B6C28DE0AE8005E238D /* UserDetailViewController.storyboard */; };
+		5FCF5C2028DE0AE8005E238D /* UserDetailDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF5B6E28DE0AE8005E238D /* UserDetailDataSource.swift */; };
+		5FCF5C2428DE0AE8005E238D /* UserDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF5B7228DE0AE8005E238D /* UserDetailViewModel.swift */; };
+		5FCF5C2A28DE0AE9005E238D /* UserDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF5B7828DE0AE8005E238D /* UserDetailRouter.swift */; };
+		5FCF5C3228DE0AE9005E238D /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF5B8028DE0AE8005E238D /* UserDetailViewController.swift */; };
+		5FCF5C3628DE0AE9005E238D /* UserDetailBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF5B8428DE0AE8005E238D /* UserDetailBuilder.swift */; };
+		5FCF5C3B28DE0AE9005E238D /* UserLocationDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF5B8A28DE0AE8005E238D /* UserLocationDataSource.swift */; };
+		5FCF5C4228DE0AE9005E238D /* UserLocationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF5B9128DE0AE8005E238D /* UserLocationRouter.swift */; };
+		5FCF5C4728DE0AE9005E238D /* UserLocationBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF5B9628DE0AE8005E238D /* UserLocationBuilder.swift */; };
+		5FCF5C4C28DE0AE9005E238D /* UserLocationViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FCF5B9B28DE0AE8005E238D /* UserLocationViewController.storyboard */; };
+		5FCF5C5028DE0AE9005E238D /* UserLocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF5B9F28DE0AE8005E238D /* UserLocationViewModel.swift */; };
+		5FCF5C5828DE0AE9005E238D /* UserLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF5BA728DE0AE8005E238D /* UserLocationViewController.swift */; };
+		5FCF5C5928DE0AE9005E238D /* CountryListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF5BA928DE0AE8005E238D /* CountryListDataSource.swift */; };
+		5FCF5C5A28DE0AE9005E238D /* CountryListBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF5BAA28DE0AE8005E238D /* CountryListBuilder.swift */; };
+		5FCF5C5B28DE0AE9005E238D /* CountryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF5BAB28DE0AE8005E238D /* CountryListViewModel.swift */; };
+		5FCF5C5C28DE0AE9005E238D /* CountryListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FCF5BAC28DE0AE8005E238D /* CountryListViewController.storyboard */; };
+		5FCF5C5D28DE0AE9005E238D /* CountryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF5BAD28DE0AE8005E238D /* CountryListViewController.swift */; };
+		5FCF5C5E28DE0AE9005E238D /* CountryListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF5BAE28DE0AE8005E238D /* CountryListRouter.swift */; };
+		5FCF5C5F28DE0AE9005E238D /* CountryListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF5BB028DE0AE8005E238D /* CountryListCellViewModel.swift */; };
+		5FCF5C6028DE0AE9005E238D /* CountryListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF5BB128DE0AE8005E238D /* CountryListCell.swift */; };
+		5FCF5C6128DE0AE9005E238D /* CountryListCellDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF5BB228DE0AE8005E238D /* CountryListCellDataSource.swift */; };
+		5FCF5C6628DE0AE9005E238D /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF5BB828DE0AE8005E238D /* LoginViewModel.swift */; };
+		5FCF5C7128DE0AE9005E238D /* LoginDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF5BC328DE0AE8005E238D /* LoginDataSource.swift */; };
+		5FCF5C7628DE0AE9005E238D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF5BC828DE0AE8005E238D /* LoginViewController.swift */; };
+		5FCF5C7B28DE0AE9005E238D /* LoginBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF5BCD28DE0AE8005E238D /* LoginBuilder.swift */; };
+		5FCF5C7E28DE0AE9005E238D /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF5BD028DE0AE8005E238D /* LoginRouter.swift */; };
+		5FCF5C7F28DE0AE9005E238D /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FCF5BD128DE0AE8005E238D /* LoginViewController.storyboard */; };
+		5FCF5C8128DE0B21005E238D /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF5C8028DE0B21005E238D /* WelcomeViewController.swift */; };
 		5FD9A8BA28DC3A3900BA0937 /* BoldLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD9A8B728DC3A3800BA0937 /* BoldLabel.swift */; };
 		5FD9A8BB28DC3A3900BA0937 /* RegularLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD9A8B828DC3A3900BA0937 /* RegularLabel.swift */; };
 		5FD9A8BC28DC3A3900BA0937 /* MediumLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD9A8B928DC3A3900BA0937 /* MediumLabel.swift */; };
@@ -99,27 +129,6 @@
 		5FD9A8CC28DC3F2100BA0937 /* ErrorAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD9A8C628DC3F2100BA0937 /* ErrorAlertView.swift */; };
 		5FD9A8CE28DC444400BA0937 /* BiometricManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD9A8CD28DC444400BA0937 /* BiometricManager.swift */; };
 		5FE5F7BA28DD815700CE3339 /* GetUserListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE5F7B928DD815700CE3339 /* GetUserListService.swift */; };
-		5FE5F7CA28DD82FB00CE3339 /* UserListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE5F7BD28DD82FB00CE3339 /* UserListViewController.storyboard */; };
-		5FE5F7CB28DD82FB00CE3339 /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE5F7BE28DD82FB00CE3339 /* UserListViewModel.swift */; };
-		5FE5F7CC28DD82FB00CE3339 /* UserListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE5F7BF28DD82FB00CE3339 /* UserListDataSource.swift */; };
-		5FE5F7CD28DD82FB00CE3339 /* UserListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE5F7C028DD82FB00CE3339 /* UserListRouter.swift */; };
-		5FE5F7CE28DD82FB00CE3339 /* UserListBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE5F7C128DD82FB00CE3339 /* UserListBuilder.swift */; };
-		5FE5F7CF28DD82FB00CE3339 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE5F7C228DD82FB00CE3339 /* UserListViewController.swift */; };
-		5FE5F7D028DD82FB00CE3339 /* UserDetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE5F7C428DD82FB00CE3339 /* UserDetailViewController.storyboard */; };
-		5FE5F7D128DD82FB00CE3339 /* UserDetailDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE5F7C528DD82FB00CE3339 /* UserDetailDataSource.swift */; };
-		5FE5F7D228DD82FB00CE3339 /* UserDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE5F7C628DD82FB00CE3339 /* UserDetailViewModel.swift */; };
-		5FE5F7D328DD82FB00CE3339 /* UserDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE5F7C728DD82FB00CE3339 /* UserDetailRouter.swift */; };
-		5FE5F7D428DD82FB00CE3339 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE5F7C828DD82FB00CE3339 /* UserDetailViewController.swift */; };
-		5FE5F7D528DD82FB00CE3339 /* UserDetailBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE5F7C928DD82FB00CE3339 /* UserDetailBuilder.swift */; };
-		5FE5F7DA28DD8C4400CE3339 /* UserListCellDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE5F7D728DD8C4400CE3339 /* UserListCellDataSource.swift */; };
-		5FE5F7DB28DD8C4400CE3339 /* UserListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE5F7D828DD8C4400CE3339 /* UserListCellViewModel.swift */; };
-		5FE5F7DC28DD8C4400CE3339 /* UserListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE5F7D928DD8C4400CE3339 /* UserListCell.swift */; };
-		5FE5F7E428DD9C7200CE3339 /* UserLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE5F7DE28DD9C7200CE3339 /* UserLocationViewController.swift */; };
-		5FE5F7E528DD9C7200CE3339 /* UserLocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE5F7DF28DD9C7200CE3339 /* UserLocationViewModel.swift */; };
-		5FE5F7E628DD9C7200CE3339 /* UserLocationBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE5F7E028DD9C7200CE3339 /* UserLocationBuilder.swift */; };
-		5FE5F7E728DD9C7200CE3339 /* UserLocationViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE5F7E128DD9C7200CE3339 /* UserLocationViewController.storyboard */; };
-		5FE5F7E828DD9C7200CE3339 /* UserLocationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE5F7E228DD9C7200CE3339 /* UserLocationRouter.swift */; };
-		5FE5F7E928DD9C7200CE3339 /* UserLocationDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE5F7E328DD9C7200CE3339 /* UserLocationDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -169,12 +178,6 @@
 		5F6FE87728C5B7E300B46B81 /* Environment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		5F6FE87C28C5B7E300B46B81 /* ResponseError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseError.swift; sourceTree = "<group>"; };
 		5F6FE8B028C5B7E300B46B81 /* JsonNull+Class.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JsonNull+Class.swift"; sourceTree = "<group>"; };
-		5F6FE8B228C5B7E300B46B81 /* WelcomeDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeDataSource.swift; sourceTree = "<group>"; };
-		5F6FE8B328C5B7E300B46B81 /* WelcomeViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WelcomeViewController.storyboard; sourceTree = "<group>"; };
-		5F6FE8B428C5B7E300B46B81 /* WelcomeBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeBuilder.swift; sourceTree = "<group>"; };
-		5F6FE8B528C5B7E300B46B81 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
-		5F6FE8B628C5B7E300B46B81 /* WelcomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewModel.swift; sourceTree = "<group>"; };
-		5F6FE8B728C5B7E300B46B81 /* WelcomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeRouter.swift; sourceTree = "<group>"; };
 		5F6FE90428C5BA1A00B46B81 /* UserAuthenticationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAuthenticationController.swift; sourceTree = "<group>"; };
 		5F6FE90528C5BA1A00B46B81 /* UserAuthenticationControllerObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAuthenticationControllerObserver.swift; sourceTree = "<group>"; };
 		5F6FE90828C5BA1A00B46B81 /* UserInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInformation.swift; sourceTree = "<group>"; };
@@ -202,12 +205,6 @@
 		5F6FE9C728C5C96400B46B81 /* DemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F6FE9C928C5C96400B46B81 /* DemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAppUITests.swift; sourceTree = "<group>"; };
 		5F6FE9CB28C5C96400B46B81 /* DemoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		5FB95CBA28D320E7006A3E6B /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
-		5FB95CBB28D320E7006A3E6B /* LoginDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginDataSource.swift; sourceTree = "<group>"; };
-		5FB95CBC28D320E7006A3E6B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		5FB95CBD28D320E7006A3E6B /* LoginBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginBuilder.swift; sourceTree = "<group>"; };
-		5FB95CBE28D320E7006A3E6B /* LoginRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
-		5FB95CBF28D320E7006A3E6B /* LoginViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginViewController.storyboard; sourceTree = "<group>"; };
 		5FB95CD128D3233E006A3E6B /* UserProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		5FB95CD228D3233E006A3E6B /* PersistenceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 		5FB95CDB28D32415006A3E6B /* UIDevice+Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Info.swift"; sourceTree = "<group>"; };
@@ -219,6 +216,48 @@
 		5FCF5B1028DE096D005E238D /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		5FCF5B1228DE096D005E238D /* spinner.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = spinner.json; sourceTree = "<group>"; };
 		5FCF5B1528DE097C005E238D /* AnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		5FCF5B2728DE0AE8005E238D /* WelcomeDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeDataSource.swift; sourceTree = "<group>"; };
+		5FCF5B2828DE0AE8005E238D /* WelcomeViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WelcomeViewController.storyboard; sourceTree = "<group>"; };
+		5FCF5B2A28DE0AE8005E238D /* WelcomeBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeBuilder.swift; sourceTree = "<group>"; };
+		5FCF5B3228DE0AE8005E238D /* WelcomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewModel.swift; sourceTree = "<group>"; };
+		5FCF5B3628DE0AE8005E238D /* WelcomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeRouter.swift; sourceTree = "<group>"; };
+		5FCF5B3D28DE0AE8005E238D /* UserListViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UserListViewController.storyboard; sourceTree = "<group>"; };
+		5FCF5B4428DE0AE8005E238D /* UserListCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListCellViewModel.swift; sourceTree = "<group>"; };
+		5FCF5B4828DE0AE8005E238D /* UserListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListCell.swift; sourceTree = "<group>"; };
+		5FCF5B4C28DE0AE8005E238D /* UserListCellDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListCellDataSource.swift; sourceTree = "<group>"; };
+		5FCF5B5328DE0AE8005E238D /* UserListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
+		5FCF5B5428DE0AE8005E238D /* UserListDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListDataSource.swift; sourceTree = "<group>"; };
+		5FCF5B5528DE0AE8005E238D /* UserListRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListRouter.swift; sourceTree = "<group>"; };
+		5FCF5B5828DE0AE8005E238D /* UserListBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListBuilder.swift; sourceTree = "<group>"; };
+		5FCF5B6328DE0AE8005E238D /* UserListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		5FCF5B6C28DE0AE8005E238D /* UserDetailViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UserDetailViewController.storyboard; sourceTree = "<group>"; };
+		5FCF5B6E28DE0AE8005E238D /* UserDetailDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailDataSource.swift; sourceTree = "<group>"; };
+		5FCF5B7228DE0AE8005E238D /* UserDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailViewModel.swift; sourceTree = "<group>"; };
+		5FCF5B7828DE0AE8005E238D /* UserDetailRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailRouter.swift; sourceTree = "<group>"; };
+		5FCF5B8028DE0AE8005E238D /* UserDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
+		5FCF5B8428DE0AE8005E238D /* UserDetailBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailBuilder.swift; sourceTree = "<group>"; };
+		5FCF5B8A28DE0AE8005E238D /* UserLocationDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocationDataSource.swift; sourceTree = "<group>"; };
+		5FCF5B9128DE0AE8005E238D /* UserLocationRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocationRouter.swift; sourceTree = "<group>"; };
+		5FCF5B9628DE0AE8005E238D /* UserLocationBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocationBuilder.swift; sourceTree = "<group>"; };
+		5FCF5B9B28DE0AE8005E238D /* UserLocationViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UserLocationViewController.storyboard; sourceTree = "<group>"; };
+		5FCF5B9F28DE0AE8005E238D /* UserLocationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocationViewModel.swift; sourceTree = "<group>"; };
+		5FCF5BA728DE0AE8005E238D /* UserLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocationViewController.swift; sourceTree = "<group>"; };
+		5FCF5BA928DE0AE8005E238D /* CountryListDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryListDataSource.swift; sourceTree = "<group>"; };
+		5FCF5BAA28DE0AE8005E238D /* CountryListBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryListBuilder.swift; sourceTree = "<group>"; };
+		5FCF5BAB28DE0AE8005E238D /* CountryListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryListViewModel.swift; sourceTree = "<group>"; };
+		5FCF5BAC28DE0AE8005E238D /* CountryListViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CountryListViewController.storyboard; sourceTree = "<group>"; };
+		5FCF5BAD28DE0AE8005E238D /* CountryListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryListViewController.swift; sourceTree = "<group>"; };
+		5FCF5BAE28DE0AE8005E238D /* CountryListRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryListRouter.swift; sourceTree = "<group>"; };
+		5FCF5BB028DE0AE8005E238D /* CountryListCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryListCellViewModel.swift; sourceTree = "<group>"; };
+		5FCF5BB128DE0AE8005E238D /* CountryListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryListCell.swift; sourceTree = "<group>"; };
+		5FCF5BB228DE0AE8005E238D /* CountryListCellDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryListCellDataSource.swift; sourceTree = "<group>"; };
+		5FCF5BB828DE0AE8005E238D /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		5FCF5BC328DE0AE8005E238D /* LoginDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginDataSource.swift; sourceTree = "<group>"; };
+		5FCF5BC828DE0AE8005E238D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5FCF5BCD28DE0AE8005E238D /* LoginBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginBuilder.swift; sourceTree = "<group>"; };
+		5FCF5BD028DE0AE8005E238D /* LoginRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		5FCF5BD128DE0AE8005E238D /* LoginViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginViewController.storyboard; sourceTree = "<group>"; };
+		5FCF5C8028DE0B21005E238D /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		5FD9A8B728DC3A3800BA0937 /* BoldLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoldLabel.swift; sourceTree = "<group>"; };
 		5FD9A8B828DC3A3900BA0937 /* RegularLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegularLabel.swift; sourceTree = "<group>"; };
 		5FD9A8B928DC3A3900BA0937 /* MediumLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediumLabel.swift; sourceTree = "<group>"; };
@@ -231,27 +270,6 @@
 		5FD9A8C628DC3F2100BA0937 /* ErrorAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorAlertView.swift; sourceTree = "<group>"; };
 		5FD9A8CD28DC444400BA0937 /* BiometricManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricManager.swift; sourceTree = "<group>"; };
 		5FE5F7B928DD815700CE3339 /* GetUserListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUserListService.swift; sourceTree = "<group>"; };
-		5FE5F7BD28DD82FB00CE3339 /* UserListViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UserListViewController.storyboard; sourceTree = "<group>"; };
-		5FE5F7BE28DD82FB00CE3339 /* UserListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
-		5FE5F7BF28DD82FB00CE3339 /* UserListDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListDataSource.swift; sourceTree = "<group>"; };
-		5FE5F7C028DD82FB00CE3339 /* UserListRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListRouter.swift; sourceTree = "<group>"; };
-		5FE5F7C128DD82FB00CE3339 /* UserListBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListBuilder.swift; sourceTree = "<group>"; };
-		5FE5F7C228DD82FB00CE3339 /* UserListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
-		5FE5F7C428DD82FB00CE3339 /* UserDetailViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UserDetailViewController.storyboard; sourceTree = "<group>"; };
-		5FE5F7C528DD82FB00CE3339 /* UserDetailDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailDataSource.swift; sourceTree = "<group>"; };
-		5FE5F7C628DD82FB00CE3339 /* UserDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailViewModel.swift; sourceTree = "<group>"; };
-		5FE5F7C728DD82FB00CE3339 /* UserDetailRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailRouter.swift; sourceTree = "<group>"; };
-		5FE5F7C828DD82FB00CE3339 /* UserDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
-		5FE5F7C928DD82FB00CE3339 /* UserDetailBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailBuilder.swift; sourceTree = "<group>"; };
-		5FE5F7D728DD8C4400CE3339 /* UserListCellDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListCellDataSource.swift; sourceTree = "<group>"; };
-		5FE5F7D828DD8C4400CE3339 /* UserListCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListCellViewModel.swift; sourceTree = "<group>"; };
-		5FE5F7D928DD8C4400CE3339 /* UserListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListCell.swift; sourceTree = "<group>"; };
-		5FE5F7DE28DD9C7200CE3339 /* UserLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocationViewController.swift; sourceTree = "<group>"; };
-		5FE5F7DF28DD9C7200CE3339 /* UserLocationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocationViewModel.swift; sourceTree = "<group>"; };
-		5FE5F7E028DD9C7200CE3339 /* UserLocationBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocationBuilder.swift; sourceTree = "<group>"; };
-		5FE5F7E128DD9C7200CE3339 /* UserLocationViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UserLocationViewController.storyboard; sourceTree = "<group>"; };
-		5FE5F7E228DD9C7200CE3339 /* UserLocationRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocationRouter.swift; sourceTree = "<group>"; };
-		5FE5F7E328DD9C7200CE3339 /* UserLocationDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocationDataSource.swift; sourceTree = "<group>"; };
 		5FE5F7EA28DDA52300CE3339 /* ReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -316,9 +334,7 @@
 				5F6FE90328C5BA1A00B46B81 /* Authentication */,
 				5F6FE86528C5B7E300B46B81 /* Api */,
 				5F6FE90B28C5BA1A00B46B81 /* BaseView */,
-				5F6FE8B128C5B7E300B46B81 /* Welcome */,
-				5FB95CB928D320E7006A3E6B /* Login */,
-				5FE5F7BB28DD82FB00CE3339 /* Dashboard */,
+				5FCF5B1A28DE0AE8005E238D /* ViewControllers */,
 				5F6FE92428C5BC2000B46B81 /* Utils */,
 				5F6FE84228C5B61000B46B81 /* Assets.xcassets */,
 				5F6FE84428C5B61000B46B81 /* LaunchScreen.storyboard */,
@@ -430,19 +446,6 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
-		5F6FE8B128C5B7E300B46B81 /* Welcome */ = {
-			isa = PBXGroup;
-			children = (
-				5F6FE8B328C5B7E300B46B81 /* WelcomeViewController.storyboard */,
-				5F6FE8B528C5B7E300B46B81 /* WelcomeViewController.swift */,
-				5F6FE8B228C5B7E300B46B81 /* WelcomeDataSource.swift */,
-				5F6FE8B628C5B7E300B46B81 /* WelcomeViewModel.swift */,
-				5F6FE8B428C5B7E300B46B81 /* WelcomeBuilder.swift */,
-				5F6FE8B728C5B7E300B46B81 /* WelcomeRouter.swift */,
-			);
-			path = Welcome;
-			sourceTree = "<group>";
-		};
 		5F6FE90328C5BA1A00B46B81 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
@@ -550,20 +553,6 @@
 			path = DemoAppUITests;
 			sourceTree = "<group>";
 		};
-		5FB95CB928D320E7006A3E6B /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				5FB95CBF28D320E7006A3E6B /* LoginViewController.storyboard */,
-				5FB95CBC28D320E7006A3E6B /* LoginViewController.swift */,
-				5FB95CBB28D320E7006A3E6B /* LoginDataSource.swift */,
-				5FB95CBA28D320E7006A3E6B /* LoginViewModel.swift */,
-				5FB95CBE28D320E7006A3E6B /* LoginRouter.swift */,
-				5FB95CBD28D320E7006A3E6B /* LoginBuilder.swift */,
-			);
-			name = Login;
-			path = DemoApp/Login;
-			sourceTree = SOURCE_ROOT;
-		};
 		5FB95CCE28D3233E006A3E6B /* Persistence */ = {
 			isa = PBXGroup;
 			children = (
@@ -597,6 +586,127 @@
 			path = Animations;
 			sourceTree = "<group>";
 		};
+		5FCF5B1A28DE0AE8005E238D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5FCF5B1B28DE0AE8005E238D /* Welcome */,
+				5FCF5BB328DE0AE8005E238D /* Login */,
+				5FCF5BA828DE0AE8005E238D /* CountryListView */,
+				5FCF5B3A28DE0AE8005E238D /* Dashboard */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5FCF5B1B28DE0AE8005E238D /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				5FCF5B2828DE0AE8005E238D /* WelcomeViewController.storyboard */,
+				5FCF5C8028DE0B21005E238D /* WelcomeViewController.swift */,
+				5FCF5B2728DE0AE8005E238D /* WelcomeDataSource.swift */,
+				5FCF5B3228DE0AE8005E238D /* WelcomeViewModel.swift */,
+				5FCF5B3628DE0AE8005E238D /* WelcomeRouter.swift */,
+				5FCF5B2A28DE0AE8005E238D /* WelcomeBuilder.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		5FCF5B3A28DE0AE8005E238D /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				5FCF5B3B28DE0AE8005E238D /* UserListView */,
+				5FCF5B6A28DE0AE8005E238D /* UserDetailView */,
+				5FCF5B8928DE0AE8005E238D /* UserLocationView */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		5FCF5B3B28DE0AE8005E238D /* UserListView */ = {
+			isa = PBXGroup;
+			children = (
+				5FCF5B3F28DE0AE8005E238D /* UserListCell */,
+				5FCF5B3D28DE0AE8005E238D /* UserListViewController.storyboard */,
+				5FCF5B6328DE0AE8005E238D /* UserListViewController.swift */,
+				5FCF5B5428DE0AE8005E238D /* UserListDataSource.swift */,
+				5FCF5B5328DE0AE8005E238D /* UserListViewModel.swift */,
+				5FCF5B5528DE0AE8005E238D /* UserListRouter.swift */,
+				5FCF5B5828DE0AE8005E238D /* UserListBuilder.swift */,
+			);
+			path = UserListView;
+			sourceTree = "<group>";
+		};
+		5FCF5B3F28DE0AE8005E238D /* UserListCell */ = {
+			isa = PBXGroup;
+			children = (
+				5FCF5B4828DE0AE8005E238D /* UserListCell.swift */,
+				5FCF5B4C28DE0AE8005E238D /* UserListCellDataSource.swift */,
+				5FCF5B4428DE0AE8005E238D /* UserListCellViewModel.swift */,
+			);
+			path = UserListCell;
+			sourceTree = "<group>";
+		};
+		5FCF5B6A28DE0AE8005E238D /* UserDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				5FCF5B6C28DE0AE8005E238D /* UserDetailViewController.storyboard */,
+				5FCF5B8028DE0AE8005E238D /* UserDetailViewController.swift */,
+				5FCF5B6E28DE0AE8005E238D /* UserDetailDataSource.swift */,
+				5FCF5B7228DE0AE8005E238D /* UserDetailViewModel.swift */,
+				5FCF5B7828DE0AE8005E238D /* UserDetailRouter.swift */,
+				5FCF5B8428DE0AE8005E238D /* UserDetailBuilder.swift */,
+			);
+			path = UserDetailView;
+			sourceTree = "<group>";
+		};
+		5FCF5B8928DE0AE8005E238D /* UserLocationView */ = {
+			isa = PBXGroup;
+			children = (
+				5FCF5B9B28DE0AE8005E238D /* UserLocationViewController.storyboard */,
+				5FCF5BA728DE0AE8005E238D /* UserLocationViewController.swift */,
+				5FCF5B8A28DE0AE8005E238D /* UserLocationDataSource.swift */,
+				5FCF5B9F28DE0AE8005E238D /* UserLocationViewModel.swift */,
+				5FCF5B9128DE0AE8005E238D /* UserLocationRouter.swift */,
+				5FCF5B9628DE0AE8005E238D /* UserLocationBuilder.swift */,
+			);
+			path = UserLocationView;
+			sourceTree = "<group>";
+		};
+		5FCF5BA828DE0AE8005E238D /* CountryListView */ = {
+			isa = PBXGroup;
+			children = (
+				5FCF5BAF28DE0AE8005E238D /* CountryListCell */,
+				5FCF5BAC28DE0AE8005E238D /* CountryListViewController.storyboard */,
+				5FCF5BAD28DE0AE8005E238D /* CountryListViewController.swift */,
+				5FCF5BA928DE0AE8005E238D /* CountryListDataSource.swift */,
+				5FCF5BAB28DE0AE8005E238D /* CountryListViewModel.swift */,
+				5FCF5BAE28DE0AE8005E238D /* CountryListRouter.swift */,
+				5FCF5BAA28DE0AE8005E238D /* CountryListBuilder.swift */,
+			);
+			path = CountryListView;
+			sourceTree = "<group>";
+		};
+		5FCF5BAF28DE0AE8005E238D /* CountryListCell */ = {
+			isa = PBXGroup;
+			children = (
+				5FCF5BB128DE0AE8005E238D /* CountryListCell.swift */,
+				5FCF5BB228DE0AE8005E238D /* CountryListCellDataSource.swift */,
+				5FCF5BB028DE0AE8005E238D /* CountryListCellViewModel.swift */,
+			);
+			path = CountryListCell;
+			sourceTree = "<group>";
+		};
+		5FCF5BB328DE0AE8005E238D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5FCF5BD128DE0AE8005E238D /* LoginViewController.storyboard */,
+				5FCF5BC828DE0AE8005E238D /* LoginViewController.swift */,
+				5FCF5BC328DE0AE8005E238D /* LoginDataSource.swift */,
+				5FCF5BB828DE0AE8005E238D /* LoginViewModel.swift */,
+				5FCF5BD028DE0AE8005E238D /* LoginRouter.swift */,
+				5FCF5BCD28DE0AE8005E238D /* LoginBuilder.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		5FD9A8BF28DC3F2100BA0937 /* AlertView */ = {
 			isa = PBXGroup;
 			children = (
@@ -615,66 +725,6 @@
 				5FD9A8C628DC3F2100BA0937 /* ErrorAlertView.swift */,
 			);
 			path = "Error Alert View";
-			sourceTree = "<group>";
-		};
-		5FE5F7BB28DD82FB00CE3339 /* Dashboard */ = {
-			isa = PBXGroup;
-			children = (
-				5FE5F7BC28DD82FB00CE3339 /* UserListView */,
-				5FE5F7C328DD82FB00CE3339 /* UserDetailView */,
-				5FE5F7DD28DD9C7200CE3339 /* UserLocationView */,
-			);
-			path = Dashboard;
-			sourceTree = "<group>";
-		};
-		5FE5F7BC28DD82FB00CE3339 /* UserListView */ = {
-			isa = PBXGroup;
-			children = (
-				5FE5F7D628DD8C4400CE3339 /* UserListCell */,
-				5FE5F7BD28DD82FB00CE3339 /* UserListViewController.storyboard */,
-				5FE5F7C228DD82FB00CE3339 /* UserListViewController.swift */,
-				5FE5F7BF28DD82FB00CE3339 /* UserListDataSource.swift */,
-				5FE5F7BE28DD82FB00CE3339 /* UserListViewModel.swift */,
-				5FE5F7C028DD82FB00CE3339 /* UserListRouter.swift */,
-				5FE5F7C128DD82FB00CE3339 /* UserListBuilder.swift */,
-			);
-			path = UserListView;
-			sourceTree = "<group>";
-		};
-		5FE5F7C328DD82FB00CE3339 /* UserDetailView */ = {
-			isa = PBXGroup;
-			children = (
-				5FE5F7C428DD82FB00CE3339 /* UserDetailViewController.storyboard */,
-				5FE5F7C828DD82FB00CE3339 /* UserDetailViewController.swift */,
-				5FE5F7C528DD82FB00CE3339 /* UserDetailDataSource.swift */,
-				5FE5F7C628DD82FB00CE3339 /* UserDetailViewModel.swift */,
-				5FE5F7C728DD82FB00CE3339 /* UserDetailRouter.swift */,
-				5FE5F7C928DD82FB00CE3339 /* UserDetailBuilder.swift */,
-			);
-			path = UserDetailView;
-			sourceTree = "<group>";
-		};
-		5FE5F7D628DD8C4400CE3339 /* UserListCell */ = {
-			isa = PBXGroup;
-			children = (
-				5FE5F7D928DD8C4400CE3339 /* UserListCell.swift */,
-				5FE5F7D728DD8C4400CE3339 /* UserListCellDataSource.swift */,
-				5FE5F7D828DD8C4400CE3339 /* UserListCellViewModel.swift */,
-			);
-			path = UserListCell;
-			sourceTree = "<group>";
-		};
-		5FE5F7DD28DD9C7200CE3339 /* UserLocationView */ = {
-			isa = PBXGroup;
-			children = (
-				5FE5F7E128DD9C7200CE3339 /* UserLocationViewController.storyboard */,
-				5FE5F7DE28DD9C7200CE3339 /* UserLocationViewController.swift */,
-				5FE5F7E328DD9C7200CE3339 /* UserLocationDataSource.swift */,
-				5FE5F7DF28DD9C7200CE3339 /* UserLocationViewModel.swift */,
-				5FE5F7E228DD9C7200CE3339 /* UserLocationRouter.swift */,
-				5FE5F7E028DD9C7200CE3339 /* UserLocationBuilder.swift */,
-			);
-			path = UserLocationView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -794,16 +844,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F6FE8FE28C5B7E300B46B81 /* WelcomeViewController.storyboard in Resources */,
-				5FE5F7E728DD9C7200CE3339 /* UserLocationViewController.storyboard in Resources */,
-				5FB95CC528D320E7006A3E6B /* LoginViewController.storyboard in Resources */,
+				5FCF5BF128DE0AE8005E238D /* UserListViewController.storyboard in Resources */,
+				5FCF5C4C28DE0AE9005E238D /* UserLocationViewController.storyboard in Resources */,
+				5FCF5C1E28DE0AE8005E238D /* UserDetailViewController.storyboard in Resources */,
 				5FD9A8CB28DC3F2100BA0937 /* ErrorAlertView.xib in Resources */,
-				5FE5F7D028DD82FB00CE3339 /* UserDetailViewController.storyboard in Resources */,
 				5FD9A8C828DC3F2100BA0937 /* AlertView.xib in Resources */,
-				5FE5F7CA28DD82FB00CE3339 /* UserListViewController.storyboard in Resources */,
+				5FCF5C7F28DE0AE9005E238D /* LoginViewController.storyboard in Resources */,
 				5F6FE84628C5B61000B46B81 /* LaunchScreen.storyboard in Resources */,
 				5F6FE84328C5B61000B46B81 /* Assets.xcassets in Resources */,
 				5FCF5B1428DE096D005E238D /* spinner.json in Resources */,
+				5FCF5C5C28DE0AE9005E238D /* CountryListViewController.storyboard in Resources */,
+				5FCF5BDE28DE0AE8005E238D /* WelcomeViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -828,97 +879,105 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FB95CC228D320E7006A3E6B /* LoginViewController.swift in Sources */,
+				5FCF5C7628DE0AE9005E238D /* LoginViewController.swift in Sources */,
+				5FCF5C8128DE0B21005E238D /* WelcomeViewController.swift in Sources */,
 				5FD9A8C928DC3F2100BA0937 /* AlertView.swift in Sources */,
-				5FE5F7CB28DD82FB00CE3339 /* UserListViewModel.swift in Sources */,
+				5FCF5C0B28DE0AE8005E238D /* UserListBuilder.swift in Sources */,
+				5FCF5C5E28DE0AE9005E238D /* CountryListRouter.swift in Sources */,
 				5F6FE8C928C5B7E300B46B81 /* ProviderProtocol.swift in Sources */,
 				5F6FE8CB28C5B7E300B46B81 /* Environment.swift in Sources */,
+				5FCF5C5028DE0AE9005E238D /* UserLocationViewModel.swift in Sources */,
 				5F6FE8FC28C5B7E300B46B81 /* JsonNull+Class.swift in Sources */,
-				5FE5F7E828DD9C7200CE3339 /* UserLocationRouter.swift in Sources */,
+				5FCF5C7B28DE0AE9005E238D /* LoginBuilder.swift in Sources */,
+				5FCF5C3628DE0AE9005E238D /* UserDetailBuilder.swift in Sources */,
 				5F6FE91728C5BA1A00B46B81 /* UserProfileProvider.swift in Sources */,
 				5F6FE8C828C5B7E300B46B81 /* URLSessionProtocol.swift in Sources */,
-				5FE5F7CC28DD82FB00CE3339 /* UserListDataSource.swift in Sources */,
-				5FE5F7E628DD9C7200CE3339 /* UserLocationBuilder.swift in Sources */,
+				5FCF5BDD28DE0AE8005E238D /* WelcomeDataSource.swift in Sources */,
+				5FCF5C5928DE0AE9005E238D /* CountryListDataSource.swift in Sources */,
 				5F6FE94828C5BC2000B46B81 /* UIView+Autolayout.swift in Sources */,
+				5FCF5BFF28DE0AE8005E238D /* UserListCellDataSource.swift in Sources */,
+				5FCF5BF728DE0AE8005E238D /* UserListCellViewModel.swift in Sources */,
+				5FCF5C2A28DE0AE9005E238D /* UserDetailRouter.swift in Sources */,
 				5F6FE95528C5BC2000B46B81 /* ReusableCell.swift in Sources */,
 				5F6FE8CE28C5B7E300B46B81 /* ResponseError.swift in Sources */,
-				5FE5F7D428DD82FB00CE3339 /* UserDetailViewController.swift in Sources */,
 				5F6FE94928C5BC2000B46B81 /* NibView.swift in Sources */,
-				5F6FE90128C5B7E300B46B81 /* WelcomeViewModel.swift in Sources */,
-				5FE5F7DA28DD8C4400CE3339 /* UserListCellDataSource.swift in Sources */,
-				5FE5F7D328DD82FB00CE3339 /* UserDetailRouter.swift in Sources */,
+				5FCF5BFB28DE0AE8005E238D /* UserListCell.swift in Sources */,
 				5F6FE8C428C5B7E300B46B81 /* NetworkError.swift in Sources */,
 				5F6FE8B928C5B7E300B46B81 /* ViewController.swift in Sources */,
+				5FCF5C5828DE0AE9005E238D /* UserLocationViewController.swift in Sources */,
 				5FD9A8CA28DC3F2100BA0937 /* ErrorAlertViewModel.swift in Sources */,
 				5FCF5B0E28DE0938005E238D /* GetListOfCountriesService.swift in Sources */,
 				5FB95CD428D3233E006A3E6B /* UserProfile.swift in Sources */,
+				5FCF5BEC28DE0AE8005E238D /* WelcomeRouter.swift in Sources */,
 				5F6FE91628C5BA1A00B46B81 /* Account.swift in Sources */,
 				5F6FE8BD28C5B7E300B46B81 /* ViewModelDataSource.swift in Sources */,
 				5F6FE85A28C5B6A400B46B81 /* AppDelegate.swift in Sources */,
-				5FE5F7E928DD9C7200CE3339 /* UserLocationDataSource.swift in Sources */,
 				5F6FE85B28C5B6A400B46B81 /* NavigationController.swift in Sources */,
+				5FCF5C3B28DE0AE9005E238D /* UserLocationDataSource.swift in Sources */,
+				5FCF5C1628DE0AE8005E238D /* UserListViewController.swift in Sources */,
+				5FCF5C5A28DE0AE9005E238D /* CountryListBuilder.swift in Sources */,
 				5FB95CD528D3233E006A3E6B /* PersistenceController.swift in Sources */,
 				5FB95CDF28D32520006A3E6B /* CustomTextField.swift in Sources */,
-				5FE5F7CD28DD82FB00CE3339 /* UserListRouter.swift in Sources */,
 				5F6FE96628C5BF6F00B46B81 /* URLRequest+Service.swift in Sources */,
-				5FE5F7DB28DD8C4400CE3339 /* UserListCellViewModel.swift in Sources */,
+				5FCF5C6628DE0AE9005E238D /* LoginViewModel.swift in Sources */,
 				5FD9A8BA28DC3A3900BA0937 /* BoldLabel.swift in Sources */,
 				5FB95CDC28D32415006A3E6B /* UIDevice+Info.swift in Sources */,
 				5F6FE91328C5BA1A00B46B81 /* UserAuthenticationControllerObserver.swift in Sources */,
-				5FE5F7CF28DD82FB00CE3339 /* UserListViewController.swift in Sources */,
 				5F6FE91528C5BA1A00B46B81 /* UserInformation.swift in Sources */,
+				5FCF5C3228DE0AE9005E238D /* UserDetailViewController.swift in Sources */,
 				5F6FE95628C5BC2000B46B81 /* KeyboardHelper.swift in Sources */,
+				5FCF5C6128DE0AE9005E238D /* CountryListCellDataSource.swift in Sources */,
 				5F6FE95428C5BC2000B46B81 /* TitleLabel.swift in Sources */,
 				5FD9A8C728DC3F2100BA0937 /* AlertViewModel.swift in Sources */,
 				5F6FE8BE28C5B7E300B46B81 /* ModuleBuilder.swift in Sources */,
+				5FCF5C5D28DE0AE9005E238D /* CountryListViewController.swift in Sources */,
+				5FCF5C4728DE0AE9005E238D /* UserLocationBuilder.swift in Sources */,
 				5F6FE95928C5BC2000B46B81 /* KeyValueStorage.swift in Sources */,
 				5F6FE94628C5BC2000B46B81 /* UIColorExtension.swift in Sources */,
+				5FCF5C2428DE0AE8005E238D /* UserDetailViewModel.swift in Sources */,
 				5F6FE96528C5BF6F00B46B81 /* URLComponents.swift in Sources */,
 				5F6FE85828C5B6A400B46B81 /* ApplicationNavigator.swift in Sources */,
 				5F6FE95C28C5BC2000B46B81 /* VersionManager.swift in Sources */,
-				5F6FE90028C5B7E300B46B81 /* WelcomeViewController.swift in Sources */,
 				5FD9A8CC28DC3F2100BA0937 /* ErrorAlertView.swift in Sources */,
-				5FE5F7CE28DD82FB00CE3339 /* UserListBuilder.swift in Sources */,
 				5FB95CE028D32520006A3E6B /* CustomButton.swift in Sources */,
-				5FE5F7D528DD82FB00CE3339 /* UserDetailBuilder.swift in Sources */,
 				5F6FE8BC28C5B7E300B46B81 /* Router.swift in Sources */,
 				5F6FE8B828C5B7E300B46B81 /* Context.swift in Sources */,
 				5F6FE8C228C5B7E300B46B81 /* HTTPMethod.swift in Sources */,
+				5FCF5C2028DE0AE8005E238D /* UserDetailDataSource.swift in Sources */,
 				5F6FE8CA28C5B7E300B46B81 /* Endpoints.swift in Sources */,
-				5FE5F7E528DD9C7200CE3339 /* UserLocationViewModel.swift in Sources */,
 				5F6FE8C028C5B7E300B46B81 /* ParametersEncoding.swift in Sources */,
 				5F6FE8C128C5B7E300B46B81 /* NetworkResponse.swift in Sources */,
 				5F6FE91828C5BA1A00B46B81 /* BaseViewController.swift in Sources */,
+				5FCF5C0728DE0AE8005E238D /* UserListDataSource.swift in Sources */,
 				5FCF5B1628DE097C005E238D /* AnimationView.swift in Sources */,
 				5F6FE85928C5B6A400B46B81 /* ApplicationCoordinator.swift in Sources */,
-				5FB95CC328D320E7006A3E6B /* LoginBuilder.swift in Sources */,
-				5FB95CC028D320E7006A3E6B /* LoginViewModel.swift in Sources */,
+				5FCF5C0628DE0AE8005E238D /* UserListViewModel.swift in Sources */,
 				5F6FE95728C5BC2000B46B81 /* KeychainHelper.swift in Sources */,
-				5FE5F7D128DD82FB00CE3339 /* UserDetailDataSource.swift in Sources */,
 				5F6FE94528C5BC2000B46B81 /* RefreshControl.swift in Sources */,
-				5FE5F7E428DD9C7200CE3339 /* UserLocationViewController.swift in Sources */,
 				5F6FE8BA28C5B7E300B46B81 /* ViewModel.swift in Sources */,
 				5FD9A8CE28DC444400BA0937 /* BiometricManager.swift in Sources */,
-				5F6FE90228C5B7E300B46B81 /* WelcomeRouter.swift in Sources */,
+				5FCF5BE828DE0AE8005E238D /* WelcomeViewModel.swift in Sources */,
+				5FCF5BE028DE0AE8005E238D /* WelcomeBuilder.swift in Sources */,
 				5FE5F7BA28DD815700CE3339 /* GetUserListService.swift in Sources */,
-				5FB95CC128D320E7006A3E6B /* LoginDataSource.swift in Sources */,
+				5FCF5C7E28DE0AE9005E238D /* LoginRouter.swift in Sources */,
+				5FCF5C4228DE0AE9005E238D /* UserLocationRouter.swift in Sources */,
 				5F6FE94D28C5BC2000B46B81 /* UIBarButtonItem+Back.swift in Sources */,
 				5FD9A8BE28DC3EB000BA0937 /* String+Types.swift in Sources */,
 				5F6FE8BF28C5B7E300B46B81 /* HeadersBuilder.swift in Sources */,
+				5FCF5C5F28DE0AE9005E238D /* CountryListCellViewModel.swift in Sources */,
+				5FCF5C0828DE0AE8005E238D /* UserListRouter.swift in Sources */,
+				5FCF5C7128DE0AE9005E238D /* LoginDataSource.swift in Sources */,
 				5F6FE95828C5BC2000B46B81 /* KeychainManager.swift in Sources */,
 				5F6FE96828C5C18D00B46B81 /* TableCellItems.swift in Sources */,
-				5F6FE8FD28C5B7E300B46B81 /* WelcomeDataSource.swift in Sources */,
 				5F6FE8C528C5B7E300B46B81 /* URLSessionProvider.swift in Sources */,
-				5F6FE8FF28C5B7E300B46B81 /* WelcomeBuilder.swift in Sources */,
-				5FE5F7D228DD82FB00CE3339 /* UserDetailViewModel.swift in Sources */,
 				5F6FE91228C5BA1A00B46B81 /* UserAuthenticationController.swift in Sources */,
 				5F6FE8C328C5B7E300B46B81 /* TaskType.swift in Sources */,
 				5FD9A8BC28DC3A3900BA0937 /* MediumLabel.swift in Sources */,
 				5F6FE8BB28C5B7E300B46B81 /* Builder.swift in Sources */,
-				5FE5F7DC28DD8C4400CE3339 /* UserListCell.swift in Sources */,
 				5FCF5B1328DE096D005E238D /* LocationManager.swift in Sources */,
-				5FB95CC428D320E7006A3E6B /* LoginRouter.swift in Sources */,
+				5FCF5C5B28DE0AE9005E238D /* CountryListViewModel.swift in Sources */,
 				5F6FE8C728C5B7E300B46B81 /* ServiceProtocol.swift in Sources */,
+				5FCF5C6028DE0AE9005E238D /* CountryListCell.swift in Sources */,
 				5FD9A8BB28DC3A3900BA0937 /* RegularLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,9 +1,8 @@
 //
 //  UserListCellViewModel.swift
-//  Oyster-Native-App
+//  DemoApp
 //
-//  Created by Kethan Kumar on 17/04/21.
-//  Copyright © 2020 Oyster. All rights reserved.
+//  Created by Kethan on 23/09/22..
 //
 
 import UIKit
